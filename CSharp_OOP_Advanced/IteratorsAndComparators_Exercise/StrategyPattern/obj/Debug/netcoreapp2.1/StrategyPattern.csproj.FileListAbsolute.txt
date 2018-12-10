@@ -1,0 +1,11 @@
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\bin\Debug\netcoreapp2.1\StrategyPattern.deps.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\bin\Debug\netcoreapp2.1\StrategyPattern.runtimeconfig.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\bin\Debug\netcoreapp2.1\StrategyPattern.runtimeconfig.dev.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\bin\Debug\netcoreapp2.1\StrategyPattern.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\bin\Debug\netcoreapp2.1\StrategyPattern.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\obj\Debug\netcoreapp2.1\StrategyPattern.csprojAssemblyReference.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\obj\Debug\netcoreapp2.1\StrategyPattern.csproj.CoreCompileInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\obj\Debug\netcoreapp2.1\StrategyPattern.AssemblyInfoInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\obj\Debug\netcoreapp2.1\StrategyPattern.AssemblyInfo.cs
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\obj\Debug\netcoreapp2.1\StrategyPattern.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\StrategyPattern\obj\Debug\netcoreapp2.1\StrategyPattern.pdb

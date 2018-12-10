@@ -1,0 +1,11 @@
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\bin\Debug\netcoreapp2.0\P02.Graphic_Editor.deps.json
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\bin\Debug\netcoreapp2.0\P02.Graphic_Editor.runtimeconfig.json
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\bin\Debug\netcoreapp2.0\P02.Graphic_Editor.runtimeconfig.dev.json
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\bin\Debug\netcoreapp2.0\P02.Graphic_Editor.dll
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\bin\Debug\netcoreapp2.0\P02.Graphic_Editor.pdb
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\obj\Debug\netcoreapp2.0\P02.Graphic_Editor.csprojAssemblyReference.cache
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\obj\Debug\netcoreapp2.0\P02.Graphic_Editor.csproj.CoreCompileInputs.cache
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\obj\Debug\netcoreapp2.0\P02.Graphic_Editor.AssemblyInfoInputs.cache
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\obj\Debug\netcoreapp2.0\P02.Graphic_Editor.AssemblyInfo.cs
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\obj\Debug\netcoreapp2.0\P02.Graphic_Editor.dll
+D:\CSharp_OOP_Advanced\SOLID_Lab\P02.Graphic_Editor\obj\Debug\netcoreapp2.0\P02.Graphic_Editor.pdb

@@ -1,0 +1,11 @@
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\bin\Debug\netcoreapp2.1\EqualityLogic.deps.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\bin\Debug\netcoreapp2.1\EqualityLogic.runtimeconfig.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\bin\Debug\netcoreapp2.1\EqualityLogic.runtimeconfig.dev.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\bin\Debug\netcoreapp2.1\EqualityLogic.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\bin\Debug\netcoreapp2.1\EqualityLogic.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\obj\Debug\netcoreapp2.1\EqualityLogic.csprojAssemblyReference.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\obj\Debug\netcoreapp2.1\EqualityLogic.csproj.CoreCompileInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\obj\Debug\netcoreapp2.1\EqualityLogic.AssemblyInfoInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\obj\Debug\netcoreapp2.1\EqualityLogic.AssemblyInfo.cs
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\obj\Debug\netcoreapp2.1\EqualityLogic.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\EqualityLogic\obj\Debug\netcoreapp2.1\EqualityLogic.pdb

@@ -1,0 +1,9 @@
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\CustomLinkedList\CustomLinkedList\bin\Debug\netcoreapp2.0\CustomLinkedList.deps.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\CustomLinkedList\CustomLinkedList\bin\Debug\netcoreapp2.0\CustomLinkedList.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\CustomLinkedList\CustomLinkedList\bin\Debug\netcoreapp2.0\CustomLinkedList.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\CustomLinkedList\CustomLinkedList\obj\Debug\netcoreapp2.0\CustomLinkedList.csprojAssemblyReference.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\CustomLinkedList\CustomLinkedList\obj\Debug\netcoreapp2.0\CustomLinkedList.csproj.CoreCompileInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\CustomLinkedList\CustomLinkedList\obj\Debug\netcoreapp2.0\CustomLinkedList.AssemblyInfoInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\CustomLinkedList\CustomLinkedList\obj\Debug\netcoreapp2.0\CustomLinkedList.AssemblyInfo.cs
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\CustomLinkedList\CustomLinkedList\obj\Debug\netcoreapp2.0\CustomLinkedList.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\CustomLinkedList\CustomLinkedList\obj\Debug\netcoreapp2.0\CustomLinkedList.pdb

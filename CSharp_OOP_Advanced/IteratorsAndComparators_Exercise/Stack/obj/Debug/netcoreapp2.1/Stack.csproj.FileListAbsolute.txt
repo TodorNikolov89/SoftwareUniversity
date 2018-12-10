@@ -1,0 +1,11 @@
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\bin\Debug\netcoreapp2.1\Stack.deps.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\bin\Debug\netcoreapp2.1\Stack.runtimeconfig.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\bin\Debug\netcoreapp2.1\Stack.runtimeconfig.dev.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\bin\Debug\netcoreapp2.1\Stack.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\bin\Debug\netcoreapp2.1\Stack.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\obj\Debug\netcoreapp2.1\Stack.csprojAssemblyReference.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\obj\Debug\netcoreapp2.1\Stack.csproj.CoreCompileInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\obj\Debug\netcoreapp2.1\Stack.AssemblyInfoInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\obj\Debug\netcoreapp2.1\Stack.AssemblyInfo.cs
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\obj\Debug\netcoreapp2.1\Stack.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Stack\obj\Debug\netcoreapp2.1\Stack.pdb

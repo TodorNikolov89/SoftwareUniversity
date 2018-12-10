@@ -1,0 +1,11 @@
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\bin\Debug\netcoreapp2.1\Froggy.deps.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\bin\Debug\netcoreapp2.1\Froggy.runtimeconfig.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\bin\Debug\netcoreapp2.1\Froggy.runtimeconfig.dev.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\bin\Debug\netcoreapp2.1\Froggy.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\bin\Debug\netcoreapp2.1\Froggy.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\obj\Debug\netcoreapp2.1\Froggy.csproj.CoreCompileInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\obj\Debug\netcoreapp2.1\Froggy.AssemblyInfoInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\obj\Debug\netcoreapp2.1\Froggy.AssemblyInfo.cs
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\obj\Debug\netcoreapp2.1\Froggy.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\obj\Debug\netcoreapp2.1\Froggy.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\IteratorsAndComparators_Exercise\Froggy\obj\Debug\netcoreapp2.1\Froggy.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\bin\Debug\netcoreapp2.1\CreateAttribute.deps.json
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\bin\Debug\netcoreapp2.1\CreateAttribute.runtimeconfig.json
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\bin\Debug\netcoreapp2.1\CreateAttribute.runtimeconfig.dev.json
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\bin\Debug\netcoreapp2.1\CreateAttribute.dll
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\bin\Debug\netcoreapp2.1\CreateAttribute.pdb
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\obj\Debug\netcoreapp2.1\CreateAttribute.csprojAssemblyReference.cache
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\obj\Debug\netcoreapp2.1\CreateAttribute.csproj.CoreCompileInputs.cache
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\obj\Debug\netcoreapp2.1\CreateAttribute.AssemblyInfoInputs.cache
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\obj\Debug\netcoreapp2.1\CreateAttribute.AssemblyInfo.cs
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\obj\Debug\netcoreapp2.1\CreateAttribute.dll
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\ReflectionAndAttributes_Lab\CreateAttribute\obj\Debug\netcoreapp2.1\CreateAttribute.pdb

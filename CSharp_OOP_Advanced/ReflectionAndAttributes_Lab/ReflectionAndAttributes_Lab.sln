@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stealer", "Stealer\Stealer.csproj", "{ACCCD0C6-808B-4FCA-8B97-605E0A1C6274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniAttribute", "CreateAttribute\SoftUniAttribute.csproj", "{5E53BD7A-63C7-4C9F-9333-3D2D15C848EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACCCD0C6-808B-4FCA-8B97-605E0A1C6274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCCD0C6-808B-4FCA-8B97-605E0A1C6274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCCD0C6-808B-4FCA-8B97-605E0A1C6274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCCD0C6-808B-4FCA-8B97-605E0A1C6274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E53BD7A-63C7-4C9F-9333-3D2D15C848EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E53BD7A-63C7-4C9F-9333-3D2D15C848EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E53BD7A-63C7-4C9F-9333-3D2D15C848EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E53BD7A-63C7-4C9F-9333-3D2D15C848EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95861CDB-C7A9-4230-BE2D-CE25FCA56B5C}
+	EndGlobalSection
+EndGlobal

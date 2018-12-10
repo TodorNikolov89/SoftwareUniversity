@@ -1,0 +1,11 @@
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\bin\Debug\netcoreapp2.1\Logger.deps.json
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\bin\Debug\netcoreapp2.1\Logger.runtimeconfig.json
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\bin\Debug\netcoreapp2.1\Logger.runtimeconfig.dev.json
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\bin\Debug\netcoreapp2.1\Logger.dll
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\bin\Debug\netcoreapp2.1\Logger.pdb
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\obj\Debug\netcoreapp2.1\Logger.csprojAssemblyReference.cache
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\obj\Debug\netcoreapp2.1\Logger.csproj.CoreCompileInputs.cache
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\obj\Debug\netcoreapp2.1\Logger.AssemblyInfoInputs.cache
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\obj\Debug\netcoreapp2.1\Logger.AssemblyInfo.cs
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\obj\Debug\netcoreapp2.1\Logger.dll
+D:\CSharp_OOP_Advanced\SOLID_Exercise\Logger\obj\Debug\netcoreapp2.1\Logger.pdb

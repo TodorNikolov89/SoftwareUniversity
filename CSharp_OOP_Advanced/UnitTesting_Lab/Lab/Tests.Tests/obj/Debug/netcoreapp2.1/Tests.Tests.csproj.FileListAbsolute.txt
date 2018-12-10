@@ -1,0 +1,17 @@
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\bin\Debug\netcoreapp2.1\Tests.Tests.deps.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\bin\Debug\netcoreapp2.1\Tests.Tests.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\obj\Debug\netcoreapp2.1\Tests.Tests.csproj.CoreCompileInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\obj\Debug\netcoreapp2.1\Tests.Tests.AssemblyInfoInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\obj\Debug\netcoreapp2.1\Tests.Tests.AssemblyInfo.cs
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\obj\Debug\netcoreapp2.1\Tests.Tests.csprojAssemblyReference.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\bin\Debug\netcoreapp2.1\Tests.Tests.runtimeconfig.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\bin\Debug\netcoreapp2.1\Tests.Tests.runtimeconfig.dev.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\bin\Debug\netcoreapp2.1\Tests.Tests.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\bin\Debug\netcoreapp2.1\Skeleton.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\bin\Debug\netcoreapp2.1\Skeleton.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\obj\Debug\netcoreapp2.1\Tests.Tests.csproj.CopyComplete
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\obj\Debug\netcoreapp2.1\Tests.Tests.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Lab\Lab\Tests.Tests\obj\Debug\netcoreapp2.1\Tests.Tests.pdb

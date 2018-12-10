@@ -1,0 +1,11 @@
+D:\C# OOP Basics\ExamPrep_StorageMaster\bin\Debug\netcoreapp2.1\StorageMaster.deps.json
+D:\C# OOP Basics\ExamPrep_StorageMaster\bin\Debug\netcoreapp2.1\StorageMaster.runtimeconfig.json
+D:\C# OOP Basics\ExamPrep_StorageMaster\bin\Debug\netcoreapp2.1\StorageMaster.runtimeconfig.dev.json
+D:\C# OOP Basics\ExamPrep_StorageMaster\bin\Debug\netcoreapp2.1\StorageMaster.dll
+D:\C# OOP Basics\ExamPrep_StorageMaster\bin\Debug\netcoreapp2.1\StorageMaster.pdb
+D:\C# OOP Basics\ExamPrep_StorageMaster\obj\Debug\netcoreapp2.1\StorageMaster.csprojAssemblyReference.cache
+D:\C# OOP Basics\ExamPrep_StorageMaster\obj\Debug\netcoreapp2.1\StorageMaster.csproj.CoreCompileInputs.cache
+D:\C# OOP Basics\ExamPrep_StorageMaster\obj\Debug\netcoreapp2.1\StorageMaster.AssemblyInfoInputs.cache
+D:\C# OOP Basics\ExamPrep_StorageMaster\obj\Debug\netcoreapp2.1\StorageMaster.AssemblyInfo.cs
+D:\C# OOP Basics\ExamPrep_StorageMaster\obj\Debug\netcoreapp2.1\StorageMaster.dll
+D:\C# OOP Basics\ExamPrep_StorageMaster\obj\Debug\netcoreapp2.1\StorageMaster.pdb

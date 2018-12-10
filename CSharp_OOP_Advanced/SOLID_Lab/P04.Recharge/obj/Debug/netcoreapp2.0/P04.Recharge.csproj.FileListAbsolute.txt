@@ -1,0 +1,11 @@
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\bin\Debug\netcoreapp2.0\P04.Recharge.deps.json
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\bin\Debug\netcoreapp2.0\P04.Recharge.runtimeconfig.json
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\bin\Debug\netcoreapp2.0\P04.Recharge.runtimeconfig.dev.json
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\bin\Debug\netcoreapp2.0\P04.Recharge.dll
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\bin\Debug\netcoreapp2.0\P04.Recharge.pdb
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\obj\Debug\netcoreapp2.0\P04.Recharge.csprojAssemblyReference.cache
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\obj\Debug\netcoreapp2.0\P04.Recharge.csproj.CoreCompileInputs.cache
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\obj\Debug\netcoreapp2.0\P04.Recharge.AssemblyInfoInputs.cache
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\obj\Debug\netcoreapp2.0\P04.Recharge.AssemblyInfo.cs
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\obj\Debug\netcoreapp2.0\P04.Recharge.dll
+D:\CSharp_OOP_Advanced\SOLID_Lab\P04.Recharge\obj\Debug\netcoreapp2.0\P04.Recharge.pdb

@@ -1,0 +1,11 @@
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\bin\Debug\netcoreapp2.1\CustomLIst.deps.json
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\bin\Debug\netcoreapp2.1\CustomLIst.runtimeconfig.json
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\bin\Debug\netcoreapp2.1\CustomLIst.runtimeconfig.dev.json
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\bin\Debug\netcoreapp2.1\CustomLIst.dll
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\bin\Debug\netcoreapp2.1\CustomLIst.pdb
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\obj\Debug\netcoreapp2.1\CustomLIst.csprojAssemblyReference.cache
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\obj\Debug\netcoreapp2.1\CustomLIst.csproj.CoreCompileInputs.cache
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\obj\Debug\netcoreapp2.1\CustomLIst.AssemblyInfoInputs.cache
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\obj\Debug\netcoreapp2.1\CustomLIst.AssemblyInfo.cs
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\obj\Debug\netcoreapp2.1\CustomLIst.dll
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\CustomLIst\obj\Debug\netcoreapp2.1\CustomLIst.pdb

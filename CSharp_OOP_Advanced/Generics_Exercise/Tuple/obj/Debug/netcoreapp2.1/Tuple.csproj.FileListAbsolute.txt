@@ -1,0 +1,11 @@
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\bin\Debug\netcoreapp2.1\Tuple.deps.json
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\bin\Debug\netcoreapp2.1\Tuple.runtimeconfig.json
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\bin\Debug\netcoreapp2.1\Tuple.runtimeconfig.dev.json
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\bin\Debug\netcoreapp2.1\Tuple.dll
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\bin\Debug\netcoreapp2.1\Tuple.pdb
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\obj\Debug\netcoreapp2.1\Tuple.csprojAssemblyReference.cache
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\obj\Debug\netcoreapp2.1\Tuple.csproj.CoreCompileInputs.cache
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\obj\Debug\netcoreapp2.1\Tuple.AssemblyInfoInputs.cache
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\obj\Debug\netcoreapp2.1\Tuple.AssemblyInfo.cs
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\obj\Debug\netcoreapp2.1\Tuple.dll
+D:\C#\C#_Fundamentals\CSharp_OOP_Advanced\Generics_Exercise\Tuple\obj\Debug\netcoreapp2.1\Tuple.pdb
