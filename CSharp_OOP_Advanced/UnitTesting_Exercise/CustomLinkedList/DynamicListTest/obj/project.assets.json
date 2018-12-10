@@ -5687,11 +5687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\DynamicListTest\\DynamicListTest.csproj",
+      "projectUniqueName": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\DynamicListTest\\DynamicListTest.csproj",
       "projectName": "DynamicListTest",
-      "projectPath": "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\DynamicListTest\\DynamicListTest.csproj",
+      "projectPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\DynamicListTest\\DynamicListTest.csproj",
       "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\DynamicListTest\\obj\\",
+      "outputPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\DynamicListTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5710,8 +5710,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLinkedList\\CustomLinkedList.csproj": {
-              "projectPath": "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLinkedList\\CustomLinkedList.csproj"
+            "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLinkedList\\CustomLinkedList.csproj": {
+              "projectPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLinkedList\\CustomLinkedList.csproj"
             }
           }
         }

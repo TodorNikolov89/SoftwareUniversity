@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLinkedList\\CustomLinkedList.csproj",
+      "projectUniqueName": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLinkedList\\CustomLinkedList.csproj",
       "projectName": "CustomLinkedList",
-      "projectPath": "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLinkedList\\CustomLinkedList.csproj",
+      "projectPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLinkedList\\CustomLinkedList.csproj",
       "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLinkedList\\obj\\",
+      "outputPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLinkedList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

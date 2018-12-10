@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\StorageMaster\\StorageMaster\\StorageMaster.csproj",
+      "projectUniqueName": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\StorageMaster\\StorageMaster\\StorageMaster.csproj",
       "projectName": "StorageMaster",
-      "projectPath": "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\StorageMaster\\StorageMaster\\StorageMaster.csproj",
+      "projectPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\StorageMaster\\StorageMaster\\StorageMaster.csproj",
       "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Fundamentals\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\StorageMaster\\StorageMaster\\obj\\",
+      "outputPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\StorageMaster\\StorageMaster\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
