@@ -1,0 +1,33 @@
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\bin\Debug\netcoreapp2.1\Database.deps.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\bin\Debug\netcoreapp2.1\Database.runtimeconfig.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\bin\Debug\netcoreapp2.1\Database.runtimeconfig.dev.json
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\bin\Debug\netcoreapp2.1\Database.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\bin\Debug\netcoreapp2.1\Database.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.csproj.CoreCompileInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.AssemblyInfoInputs.cache
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.AssemblyInfo.cs
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.dll
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.pdb
+D:\C# Fundamentals\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.csprojAssemblyReference.cache
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\bin\Debug\netcoreapp2.1\Database.deps.json
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\bin\Debug\netcoreapp2.1\Database.runtimeconfig.json
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\bin\Debug\netcoreapp2.1\Database.runtimeconfig.dev.json
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\bin\Debug\netcoreapp2.1\Database.dll
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\bin\Debug\netcoreapp2.1\Database.pdb
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.csprojAssemblyReference.cache
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.csproj.CoreCompileInputs.cache
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.AssemblyInfoInputs.cache
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.AssemblyInfo.cs
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.dll
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\UnitTesting\Database\obj\Debug\netcoreapp2.1\Database.pdb
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\bin\Debug\netcoreapp2.1\Database.deps.json
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\bin\Debug\netcoreapp2.1\Database.runtimeconfig.json
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\bin\Debug\netcoreapp2.1\Database.runtimeconfig.dev.json
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\bin\Debug\netcoreapp2.1\Database.dll
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\bin\Debug\netcoreapp2.1\Database.pdb
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\obj\Debug\netcoreapp2.1\Database.csprojAssemblyReference.cache
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\obj\Debug\netcoreapp2.1\Database.csproj.CoreCompileInputs.cache
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\obj\Debug\netcoreapp2.1\Database.AssemblyInfoInputs.cache
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\obj\Debug\netcoreapp2.1\Database.AssemblyInfo.cs
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\obj\Debug\netcoreapp2.1\Database.dll
+D:\SoftwareUniversity\CSharp_OOP_Advanced\UnitTesting_Exercise\Database\Database\obj\Debug\netcoreapp2.1\Database.pdb
