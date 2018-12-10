@@ -1,0 +1,10 @@
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\CountOfOccurrences\bin\Debug\netcoreapp2.1\CountOfOccurrences.deps.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\CountOfOccurrences\bin\Debug\netcoreapp2.1\CountOfOccurrences.runtimeconfig.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\CountOfOccurrences\bin\Debug\netcoreapp2.1\CountOfOccurrences.runtimeconfig.dev.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\CountOfOccurrences\bin\Debug\netcoreapp2.1\CountOfOccurrences.dll
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\CountOfOccurrences\bin\Debug\netcoreapp2.1\CountOfOccurrences.pdb
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\CountOfOccurrences\obj\Debug\netcoreapp2.1\CountOfOccurrences.csproj.CoreCompileInputs.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\CountOfOccurrences\obj\Debug\netcoreapp2.1\CountOfOccurrences.AssemblyInfoInputs.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\CountOfOccurrences\obj\Debug\netcoreapp2.1\CountOfOccurrences.AssemblyInfo.cs
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\CountOfOccurrences\obj\Debug\netcoreapp2.1\CountOfOccurrences.dll
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\CountOfOccurrences\obj\Debug\netcoreapp2.1\CountOfOccurrences.pdb

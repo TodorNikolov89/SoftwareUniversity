@@ -1,0 +1,11 @@
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\bin\Debug\netcoreapp2.1\SortWords.deps.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\bin\Debug\netcoreapp2.1\SortWords.runtimeconfig.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\bin\Debug\netcoreapp2.1\SortWords.runtimeconfig.dev.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\bin\Debug\netcoreapp2.1\SortWords.dll
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\bin\Debug\netcoreapp2.1\SortWords.pdb
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\obj\Debug\netcoreapp2.1\SortWords.csprojAssemblyReference.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\obj\Debug\netcoreapp2.1\SortWords.csproj.CoreCompileInputs.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\obj\Debug\netcoreapp2.1\SortWords.AssemblyInfoInputs.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\obj\Debug\netcoreapp2.1\SortWords.AssemblyInfo.cs
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\obj\Debug\netcoreapp2.1\SortWords.dll
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SortWords\obj\Debug\netcoreapp2.1\SortWords.pdb

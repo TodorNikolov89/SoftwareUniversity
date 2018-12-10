@@ -1,0 +1,11 @@
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\bin\Debug\netcoreapp2.1\SumAndAverage.deps.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\bin\Debug\netcoreapp2.1\SumAndAverage.runtimeconfig.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\bin\Debug\netcoreapp2.1\SumAndAverage.runtimeconfig.dev.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\bin\Debug\netcoreapp2.1\SumAndAverage.dll
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\bin\Debug\netcoreapp2.1\SumAndAverage.pdb
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\obj\Debug\netcoreapp2.1\SumAndAverage.csprojAssemblyReference.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\obj\Debug\netcoreapp2.1\SumAndAverage.csproj.CoreCompileInputs.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\obj\Debug\netcoreapp2.1\SumAndAverage.AssemblyInfoInputs.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\obj\Debug\netcoreapp2.1\SumAndAverage.AssemblyInfo.cs
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\obj\Debug\netcoreapp2.1\SumAndAverage.dll
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\SumAndAverage\obj\Debug\netcoreapp2.1\SumAndAverage.pdb

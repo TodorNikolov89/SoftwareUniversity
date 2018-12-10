@@ -1,0 +1,10 @@
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\RemoveOddOccurences\bin\Debug\netcoreapp2.1\RemoveOddOccurences.deps.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\RemoveOddOccurences\bin\Debug\netcoreapp2.1\RemoveOddOccurences.runtimeconfig.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\RemoveOddOccurences\bin\Debug\netcoreapp2.1\RemoveOddOccurences.runtimeconfig.dev.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\RemoveOddOccurences\bin\Debug\netcoreapp2.1\RemoveOddOccurences.dll
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\RemoveOddOccurences\bin\Debug\netcoreapp2.1\RemoveOddOccurences.pdb
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\RemoveOddOccurences\obj\Debug\netcoreapp2.1\RemoveOddOccurences.csproj.CoreCompileInputs.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\RemoveOddOccurences\obj\Debug\netcoreapp2.1\RemoveOddOccurences.AssemblyInfoInputs.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\RemoveOddOccurences\obj\Debug\netcoreapp2.1\RemoveOddOccurences.AssemblyInfo.cs
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\RemoveOddOccurences\obj\Debug\netcoreapp2.1\RemoveOddOccurences.dll
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\RemoveOddOccurences\obj\Debug\netcoreapp2.1\RemoveOddOccurences.pdb

@@ -1,0 +1,11 @@
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\bin\Debug\netcoreapp2.1\LongestSubsequence.deps.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\bin\Debug\netcoreapp2.1\LongestSubsequence.runtimeconfig.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\bin\Debug\netcoreapp2.1\LongestSubsequence.runtimeconfig.dev.json
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\bin\Debug\netcoreapp2.1\LongestSubsequence.dll
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\bin\Debug\netcoreapp2.1\LongestSubsequence.pdb
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\obj\Debug\netcoreapp2.1\LongestSubsequence.csprojAssemblyReference.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\obj\Debug\netcoreapp2.1\LongestSubsequence.csproj.CoreCompileInputs.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\obj\Debug\netcoreapp2.1\LongestSubsequence.AssemblyInfoInputs.cache
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\obj\Debug\netcoreapp2.1\LongestSubsequence.AssemblyInfo.cs
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\obj\Debug\netcoreapp2.1\LongestSubsequence.dll
+E:\Todor\CSharp_Advanced\AlgorithmComplexityAndLinearDataStructures\LongestSubsequence\obj\Debug\netcoreapp2.1\LongestSubsequence.pdb
