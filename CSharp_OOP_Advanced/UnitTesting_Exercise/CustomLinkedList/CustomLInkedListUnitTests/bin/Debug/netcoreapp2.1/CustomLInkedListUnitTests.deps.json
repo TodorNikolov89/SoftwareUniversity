@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "DynamicListTest/1.0.0": {
+      "CustomLInkedListUnitTests/1.0.0": {
         "dependencies": {
           "CustomLinkedList": "1.0.0",
           "Microsoft.NET.Test.Sdk": "15.9.0",
@@ -14,7 +14,7 @@
           "NUnit3TestAdapter": "3.11.2"
         },
         "runtime": {
-          "DynamicListTest.dll": {}
+          "CustomLInkedListUnitTests.dll": {}
         }
       },
       "Microsoft.CodeCoverage/15.9.0": {
@@ -1040,7 +1040,7 @@
     }
   },
   "libraries": {
-    "DynamicListTest/1.0.0": {
+    "CustomLInkedListUnitTests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -5687,11 +5687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\DynamicListTest\\DynamicListTest.csproj",
-      "projectName": "DynamicListTest",
-      "projectPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\DynamicListTest\\DynamicListTest.csproj",
+      "projectUniqueName": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLInkedListUnitTests\\CustomLInkedListUnitTests.csproj",
+      "projectName": "CustomLInkedListUnitTests",
+      "projectPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLInkedListUnitTests\\CustomLInkedListUnitTests.csproj",
       "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
-      "outputPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\DynamicListTest\\obj\\",
+      "outputPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\UnitTesting_Exercise\\CustomLinkedList\\CustomLInkedListUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
