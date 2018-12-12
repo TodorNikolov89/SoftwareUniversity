@@ -1,0 +1,11 @@
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\obj\Debug\netcoreapp2.0\Travel.csprojAssemblyReference.cache
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\obj\Debug\netcoreapp2.0\Travel.csproj.CoreCompileInputs.cache
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\obj\Debug\netcoreapp2.0\Travel.AssemblyInfoInputs.cache
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\obj\Debug\netcoreapp2.0\Travel.AssemblyInfo.cs
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\bin\Debug\netcoreapp2.0\Travel.deps.json
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\bin\Debug\netcoreapp2.0\Travel.runtimeconfig.json
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\bin\Debug\netcoreapp2.0\Travel.runtimeconfig.dev.json
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\bin\Debug\netcoreapp2.0\Travel.dll
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\bin\Debug\netcoreapp2.0\Travel.pdb
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\obj\Debug\netcoreapp2.0\Travel.dll
+D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel\obj\Debug\netcoreapp2.0\Travel.pdb
