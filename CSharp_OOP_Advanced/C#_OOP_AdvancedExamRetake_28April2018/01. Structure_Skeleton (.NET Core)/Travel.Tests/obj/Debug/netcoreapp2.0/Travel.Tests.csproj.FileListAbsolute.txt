@@ -16,3 +16,21 @@ D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01.
 D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel.Tests\obj\Debug\netcoreapp2.0\Travel.Tests.csproj.CopyComplete
 D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel.Tests\obj\Debug\netcoreapp2.0\Travel.Tests.dll
 D:\SoftwareUniversity\CSharp_OOP_Advanced\01. Structure_Skeleton (.NET Core)\01. Structure_Skeleton (.NET Core)\Travel.Tests\obj\Debug\netcoreapp2.0\Travel.Tests.pdb
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\Travel.Tests.deps.json
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\Travel.Tests.runtimeconfig.json
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\Travel.Tests.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\Travel.Tests.dll
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\Travel.Tests.pdb
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\Travel.dll
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\bin\Debug\netcoreapp2.0\Travel.pdb
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\obj\Debug\netcoreapp2.0\Travel.Tests.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\obj\Debug\netcoreapp2.0\Travel.Tests.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\obj\Debug\netcoreapp2.0\Travel.Tests.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\obj\Debug\netcoreapp2.0\Travel.Tests.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\obj\Debug\netcoreapp2.0\Travel.Tests.csproj.CopyComplete
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\obj\Debug\netcoreapp2.0\Travel.Tests.dll
+D:\C#\SoftwareUniversity\CSharp_OOP_Advanced\C#_OOP_AdvancedExamRetake_28April2018\01. Structure_Skeleton (.NET Core)\Travel.Tests\obj\Debug\netcoreapp2.0\Travel.Tests.pdb
