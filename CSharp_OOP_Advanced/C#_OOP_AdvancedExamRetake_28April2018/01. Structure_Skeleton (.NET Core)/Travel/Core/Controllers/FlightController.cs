@@ -45,7 +45,6 @@
 
                     var ejectedBags = ejectedPassengers.SelectMany(x => x.Bags);
                   
-
                     foreach (var bag in ejectedBags)
                     {
                         this.airport.AddConfiscatedBag(bag);
