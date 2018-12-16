@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\01. Structure_Skeleton (.NET Core)\\01. Structure_Skeleton (.NET Core)\\Travel\\Travel.csproj",
+      "projectUniqueName": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\C#_OOP_AdvancedExamRetake_28April2018\\01. Structure_Skeleton (.NET Core)\\Travel\\Travel.csproj",
       "projectName": "Travel",
-      "projectPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\01. Structure_Skeleton (.NET Core)\\01. Structure_Skeleton (.NET Core)\\Travel\\Travel.csproj",
+      "projectPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\C#_OOP_AdvancedExamRetake_28April2018\\01. Structure_Skeleton (.NET Core)\\Travel\\Travel.csproj",
       "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
-      "outputPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\01. Structure_Skeleton (.NET Core)\\01. Structure_Skeleton (.NET Core)\\Travel\\obj\\",
+      "outputPath": "D:\\SoftwareUniversity\\CSharp_OOP_Advanced\\C#_OOP_AdvancedExamRetake_28April2018\\01. Structure_Skeleton (.NET Core)\\Travel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
