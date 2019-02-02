@@ -177,7 +177,70 @@ ORDER BY
 SELECT * INTO NEWTABLE
 FROM Employees
 WHERE
-	Salary>30000
+	Salary > 30000
 DELETE FROM NEWTABLE
 WHERE
 	ManagerID = 42
+UPDATE NEWTABLE
+SET
+	Salary = Salary + 5000
+WHERE 
+	DepartmentID = 1
+
+SELECT 
+	DepartmentID
+	,AVG(Salary) AS 'AverageSalary'
+FROM 
+	NEWTABLE 
+GROUP BY
+	DepartmentID
+
+
+--Problem 16.	Employees Maximum Salaries
+SELECT 
+	DepartmentID
+	,MAX(Salary) AS MaxSalary
+FROM
+	Employees
+GROUP BY
+	DepartmentID 
+HAVING MAX(Salary) < 30000 OR MAX(Salary)>70000
+
+	
+--Problem 17.	Employees Count Salaries
+SELECT 
+	COUNT(EmployeeID) AS 'Count'
+FROM 
+	Employees
+WHERE
+	ManagerID IS NULL
+
+
+--Problem 18.	*3rd Highest Salary
+SELECT K.DepartmentID, K.Salary
+	FROM(
+	SELECT
+		DepartmentID
+		,Salary
+		,DENSE_RANK() OVER (PARTITION BY DepartmentID ORDER BY Salary DESC) AS SalaryRank
+	FROM
+		Employees) AS K
+WHERE
+		SalaryRank = 3
+GROUP BY
+	DepartmentID
+	,Salary
+
+
+
+--Problem 19.	**Salary Challenge
+SELECT TOP 10
+	FirstName
+	,LastName
+	,DepartmentID
+FROM 
+	Employees AS E
+WHERE 
+	Salary > (SELECT AVG(Salary) FROM Employees AS EM WHERE EM.DepartmentID = E.DepartmentID)
+ORDER BY 
+	DepartmentID
