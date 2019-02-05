@@ -86,3 +86,161 @@ GROUP BY
 
 
 --Problem 9.	Age Groups
+SELECT 
+	CASE
+		WHEN Age BETWEEN 0 AND 10 THEN '[0-10]'
+		WHEN Age BETWEEN 11 AND 20 THEN '[11-20]'
+		WHEN Age BETWEEN 21 AND 30 THEN '[21-30]'
+		WHEN Age BETWEEN 31 AND 40 THEN '[31-40]'
+		WHEN Age BETWEEN 41 AND 50 THEN '[41-50]'
+		WHEN Age BETWEEN 51 AND 60 THEN '[51-60]'
+		ELSE '[61+]'
+	END AS AgeGroup
+	, COUNT(*)
+FROM WizzardDeposits
+GROUP BY (
+CASE
+		WHEN Age BETWEEN 0 AND 10 THEN '[0-10]'
+		WHEN Age BETWEEN 11 AND 20 THEN '[11-20]'
+		WHEN Age BETWEEN 21 AND 30 THEN '[21-30]'
+		WHEN Age BETWEEN 31 AND 40 THEN '[31-40]'
+		WHEN Age BETWEEN 41 AND 50 THEN '[41-50]'
+		WHEN Age BETWEEN 51 AND 60 THEN '[51-60]'
+		ELSE '[61+]'
+	END 
+)
+
+
+--Problem 10.	First Letter
+
+SELECT 
+	LEFT(FirstName,1) AS FirstLetter
+FROM
+	WizzardDeposits
+WHERE
+	DepositGroup ='Troll Chest'
+GROUP BY 
+	LEFT(FirstName,1)  
+ORDER BY 
+	FirstLetter 
+
+
+--Problem 11.	Average Interest 
+SELECT 
+	DepositGroup
+	,IsDepositExpired
+	, AVG(DepositInterest)
+FROM 
+	WizzardDeposits
+WHERE 
+	DepositStartDate >='01/01/1985'
+GROUP BY 
+	DepositGroup
+	, IsDepositExpired
+ORDER BY
+	DepositGroup DESC
+	,IsDepositExpired ASC
+	
+
+--Problem 12.	* Rich Wizard, Poor Wizard
+SELECT SUM(K.Diff)
+FROM(
+SELECT WD.DepositAmount - ( SELECT W.DepositAmount	FROM WizzardDeposits AS W	WHERE W.Id = WD.Id+1) AS Diff						
+FROM 
+	WizzardDeposits AS WD)AS K
+
+
+--Problem 13.	Departments Total Salaries
+SELECT 
+	DepartmentID
+	,SUM(Salary)
+FROM Employees
+GROUP BY 
+	DepartmentID
+ORDER BY
+	DepartmentID ASC
+
+--Problem 14.	Employees Minimum Salaries
+SELECT 
+	DepartmentID
+	,MIN(Salary)
+FROM Employees
+WHERE
+	DepartmentID IN (2, 5, 7) AND HireDate>'01/01/2000'
+GROUP BY 
+	DepartmentID
+ORDER BY
+	DepartmentID ASC
+
+
+--Problem 15.	Employees Average Salaries
+SELECT * INTO NEWTABLE
+FROM Employees
+WHERE
+	Salary > 30000
+DELETE FROM NEWTABLE
+WHERE
+	ManagerID = 42
+UPDATE NEWTABLE
+SET
+	Salary = Salary + 5000
+WHERE 
+	DepartmentID = 1
+
+SELECT 
+	DepartmentID
+	,AVG(Salary) AS 'AverageSalary'
+FROM 
+	NEWTABLE 
+GROUP BY
+	DepartmentID
+
+
+--Problem 16.	Employees Maximum Salaries
+SELECT 
+	DepartmentID
+	,MAX(Salary) AS MaxSalary
+FROM
+	Employees
+GROUP BY
+	DepartmentID 
+HAVING MAX(Salary) < 30000 OR MAX(Salary)>70000
+
+	
+--Problem 17.	Employees Count Salaries
+SELECT 
+	COUNT(EmployeeID) AS 'Count'
+FROM 
+	Employees
+WHERE
+	ManagerID IS NULL
+
+
+--Problem 18.	*3rd Highest Salary
+SELECT K.DepartmentID, K.Salary
+	FROM(
+	SELECT
+		DepartmentID
+		,Salary
+		,DENSE_RANK() OVER (PARTITION BY DepartmentID ORDER BY Salary DESC) AS SalaryRank
+	FROM
+		Employees) AS K
+WHERE
+		SalaryRank = 3
+GROUP BY
+	DepartmentID
+	,Salary
+
+
+
+--Problem 19.	**Salary Challenge
+SELECT TOP 10
+	FirstName
+	,LastName
+	,DepartmentID
+FROM 
+	Employees AS E
+WHERE 
+	Salary > (SELECT AVG(Salary) FROM Employees AS EM WHERE EM.DepartmentID = E.DepartmentID)
+ORDER BY 
+	DepartmentID
