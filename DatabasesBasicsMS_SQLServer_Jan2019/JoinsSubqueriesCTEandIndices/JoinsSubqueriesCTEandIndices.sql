@@ -194,4 +194,4 @@ GROUP BY
 
 
 
---Problem 14.	Countries with Rivers
+--Problem 14.  	Countries with Rivers
