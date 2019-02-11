@@ -195,3 +195,14 @@ GROUP BY
 
 
 --Problem 14.  	Countries with Rivers
+SELECT
+	C.CountryName
+	,R.RiverName
+FROM
+	Continents AS CON
+	JOIN Countries AS C ON CON.ContinentCode = C.ContinentCode
+	RIGHT OUTER JOIN CountriesRivers AS CR ON CR.CountryCode = C.CountryCode
+	JOIN Rivers AS R ON CR.RiverId = R.Id
+WHERE
+	CON.ContinentCode = 'AF'
+
