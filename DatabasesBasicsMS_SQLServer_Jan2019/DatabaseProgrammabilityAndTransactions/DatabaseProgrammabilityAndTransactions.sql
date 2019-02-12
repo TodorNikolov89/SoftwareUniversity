@@ -196,3 +196,150 @@ WHERE
 
 
 SELECT * FROM ufn_CashInUsersGames('Love in a mist')
+
+
+--Problem 14. Create Table Logs
+CREATE TABLE Logs(
+	LogId INT PRIMARY KEY IDENTITY
+	,AccountId INT 
+	,OldSum DECIMAL (15,2)
+	,NewSum DECIMAL (15,2)
+)
+
+CREATE TRIGGER tr_InsertEntryIntoLogs ON Accounts FOR UPDATE
+AS
+
+	DECLARE @NewSum DECIMAL(15,2) = (SELECT Balance FROM inserted)
+	DECLARE @OldSum DECIMAL(15,2) = (SELECT Balance FROM deleted)
+	DECLARE @AccountId INT = (SELECT Id FROM inserted)
+	
+	INSERT INTO Logs(AccountId, NewSum, OldSum) VALUES
+	(@AccountId, @NewSum, @OldSum)
+
+
+--Problem 15. Create Table Emails
+CREATE TABLE NotificationEmails(
+	Id INT PRIMARY KEY IDENTITY
+	,Recipient INT
+	,Subject VARCHAR(MAX)
+	,Body VARCHAR(MAX)
+) 
+
+
+CREATE TRIGGER tr_CreateNewEmails ON Logs FOR INSERT
+AS
+	DECLARE @newSum DECIMAL(15,2) = (SELECT NewSum FROM inserted)
+	DECLARE @oldSum DECIMAL(15,2) = (SELECT OldSum FROM inserted)
+	DECLARE @accountId INT = (SELECT TOP(1) AccountId FROM inserted)
+
+INSERT INTO NotificationEmails(Recipient, Subject, Body) VALUES
+(
+@accountId
+,'Balance change for account: '+ CAST(@accountId  AS VARCHAR(20))
+,'On '+CONVERT(VARCHAR(30), GETDATE(), 103)+' your balance was changed from '+CAST(@oldSum AS VARCHAR(20)) +' to '+CAST(@newSum AS varchar(20)) 
+)
+
+
+--Problem 16. Deposit Money
+CREATE PROC usp_DepositMoney (@AccountId INT, @MoneyAmount DECIMAL(15,4)) 
+AS
+BEGIN TRANSACTION
+	DECLARE @CurrentAccout INT = (SELECT TOP(1) Id FROM Accounts WHERE Id = @AccountId)
+	DECLARE @Ballance DECIMAL (15,4) = (SELECT Balance FROM Accounts WHERE Id = @CurrentAccout)
+
+	IF(@CurrentAccout IS NULL)
+	BEGIN
+		ROLLBACK
+		RAISERROR('Invalid Account Id!', 16,1)
+		RETURN
+	END
+
+	
+	UPDATE Accounts 
+	SET Balance +=@MoneyAmount
+	WHERE ID=@CurrentAccout
+COMMIT
+
+
+--Problem 17. Withdraw Money
+CREATE PROC usp_WithdrawMoney (@AccountId INT, @MoneyAmount DECIMAL(15,4)) 
+AS
+BEGIN TRANSACTION
+	DECLARE @CurrentAccount INT = (SELECT TOP(1)Id FROM Accounts WHERE Id = @AccountId)
+	DECLARE @Balance DECIMAL(15,4) = (SELECT Balance FROM Accounts WHERE Id = @CurrentAccount)
+
+	IF(@CurrentAccount IS NULL)
+	BEGIN
+		ROLLBACK
+		RAISERROR('Invalid Account Id', 16,1)
+		RETURN
+	END
+
+	IF(@Balance-@MoneyAmount<0)
+	BEGIN
+		ROLLBACK
+		RAISERROR('Insufficient funds!', 16,1)
+		RETURN
+	END
+
+	UPDATE Accounts
+	SET Balance -=@MoneyAmount
+	WHERE
+		Id=@CurrentAccount
+
+COMMIT
+
+
+--Problem 18. Money Transfer
+CREATE PROC usp_TransferMoney(@SenderId INT, @ReceiverId INT, @Amount DECIMAL(15,4))
+AS
+BEGIN TRANSACTION
+	EXEC usp_WithdrawMoney @SenderId, @Amount
+	EXEC usp_DepositMoney @ReceiverId, @Amount
+COMMIT 
+
+
+--Problem 21. Employees with Three Projects
+CREATE PROC usp_AssignProject(@emloyeeId INT, @projectID INT)
+AS
+BEGIN TRANSACTION
+	DECLARE @EmpId INT = (SELECT  EmployeeID FROM Employees WHERE EmployeeID = @emloyeeId)
+	DECLARE @ProjId INT = (SELECT  ProjectID FROM Projects WHERE ProjectID = @projectID)
+	
+	IF(@EmpId IS NULL OR @ProjId IS NULL)
+	BEGIN
+		ROLLBACK
+		RAISERROR('Invalid Employee Id!',16,1)
+		RETURN
+	END
+	DECLARE @EmployeeProjectsCount INT = (SELECT COUNT(@EmpId) FROM EmployeesProjects WHERE EmployeeID = @EmpId)
+
+	IF(@EmployeeProjectsCount >= 3)
+	BEGIN
+		ROLLBACK
+		RAISERROR('The employee has too many projects!', 16,1)
+		RETURN
+	END
+	
+	INSERT INTO EmployeesProjects(EmployeeID, ProjectID) VALUES
+	(@emloyeeId, @projectID)
+	
+COMMIT 
+
+
+--Problem 22. Delete Employees
+CREATE TABLE Deleted_Employees
+(
+EmployeeId INT PRIMARY KEY
+,FirstName VARCHAR(MAX)
+,LastName VARCHAR(MAX)
+,MiddleName VARCHAR(MAX)
+,JobTitle VARCHAR(MAX)
+,DepartmentId INT
+,Salary DECIMAL (15,2)
+)
+
+CREATE TRIGGER tr_DeleteEmployees ON Employees FOR DELETE
+AS
+INSERT INTO Deleted_Employees ( FirstName, LastName, MiddleName, JobTitle, DepartmentId, Salary)
+SELECT FirstName, LastName, MiddleName, JobTitle, DepartmentId, Salary FROM deleted
