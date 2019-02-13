@@ -149,3 +149,163 @@ ORDER BY
 
 
 --8. City Statistics
+SELECT C.Name 
+	,COUNT(H.Id) AS TOTAL
+  FROM	
+	Cities AS C
+	LEFT OUTER JOIN Hotels AS H ON C.Id = H.CityId
+GROUP BY
+	C.Name 
+ORDER BY
+	TOTAL DESC
+	,C.Name 
+	
+
+--9. Expensive First-Class Rooms
+SELECT 
+	R.Id
+	,R.Price
+	,H.Name
+	,C.Name
+FROM 
+	Rooms AS R
+	JOIN Hotels AS H ON H.Id = R.HotelId
+	JOIN Cities AS C ON C.Id = H.CityId
+WHERE
+	Type='First Class'
+ORDER BY
+	R.Price DESC
+	,R.Id
+
+--10. Longest and Shortest Trips
+SELECT RES.Id,RES.FirstName + ' ' + RES.LastName AS [FullName], MAX(RES.DIFF) AS [LongestTrip] , MIN(RES.DIFF) AS [ShortestTrip]
+FROM
+(SELECT 
+	A.Id
+	,A.FirstName
+	,A.MiddleName
+	,A.LastName
+	,T.CancelDate
+	,DATEDIFF(DAY, T.ArrivalDate,T.ReturnDate) AS DIFF
+FROM
+	Accounts AS A
+	JOIN AccountsTrips AS AT ON AT.AccountId = A.Id
+	JOIN TRIPS AS T ON T.Id = AT.TripId ) AS RES
+WHERE
+	RES.MiddleName IS NULL AND RES.CancelDate IS NULL
+GROUP BY  RES.FirstName, RES.LastName, RES.Id, RES.MiddleName
+ORDER BY
+	[LongestTrip] DESC
+	,RES.Id
+	
+
+--11. Metropolis
+SELECT TOP(5) C.Id,C.Name AS [City],C.CountryCode AS [Country], COUNT(A.CityId) AS [Accounts]
+FROM
+	Cities AS C
+	JOIN Accounts AS A ON A.CityId = C.Id
+GROUP BY
+	C.Id,C.Name,C.CountryCode
+ORDER BY
+	[Accounts] DESC
+
+
+--12. Romantic Getaways
+
+--Find all accounts, which have had one or more trips to a hotel in their hometown.
+--Order them by the trips count (descending), then by Account ID.
+
+SELECT
+	A.Id
+	,A.Email
+	,C.Name AS [City]
+	,COUNT(T.Id) AS Trips
+FROM 
+	Accounts AS A
+	JOIN AccountsTrips AS at ON at.AccountId = a.Id	
+	JOIN TRIPS AS T ON T.Id = AT.TripId
+	JOIN Rooms AS R ON R.Id = T.RoomId
+	JOIN Hotels AS H ON H.Id = R.HotelId
+	JOIN Cities AS C ON C.Id = H.CityId
+WHERE
+	A.CityId = H.CityId
+GROUP BY
+	A.Id, A.Email, C.Name 
+ORDER BY
+	Trips DESC
+	,A.Id
+
+
+--13. Lucrative Destinations
+SELECT TOP(10)
+	C.Id
+	,C.Name AS [Name]
+	,SUM(H.BaseRate+R.Price) AS [Total Revenue]
+	,COUNT(T.Id) AS [Trips]
+FROM
+	Cities AS C
+	JOIN Hotels AS H ON C.Id = H.CityId
+	JOIN Rooms AS R ON R.HotelId = H.Id
+	JOIN Trips AS T ON T.RoomId = R.Id
+WHERE
+	DATEPART(YEAR,T.BookDate) = 2016
+GROUP BY
+	C.Id, C.Name
+ORDER BY
+	[Total Revenue] DESC
+	,Trips DESC
+
+
+--14. Trip Revenues
+SELECT 
+	T.Id
+	,H.Name AS [HotelName]
+	,R.Type AS [RoomType]
+	,CASE
+		WHEN T.CancelDate IS NULL THEN SUM(H.BaseRate + R.Price)  
+		ELSE  0.00
+	 END AS [Revenue]
+FROM
+	Trips AS T
+	JOIN AccountsTrips AS AT ON AT.TripId = T.Id
+	JOIN Rooms AS R ON R.Id = T.RoomId
+	JOIN Hotels AS H ON H.Id = R.HotelId
+GROUP BY
+	 T.Id
+	,H.Name
+	,R.Type
+	,T.CancelDate
+ORDER BY
+	R.Type
+	,T.Id
+	
+	
+--15. Top Travelers
+SELECT TEMP.Id,TEMP.Email,TEMP.CountryCode, TEMP.Trips FROM
+(SELECT 
+	A.Id
+	,A.Email
+	,C.CountryCode
+	,COUNT(*) AS Trips
+	,DENSE_RANK() OVER(PARTITION BY C.CountryCode ORDER BY COUNT(*) DESC,A.ID) AS TripsRank
+FROM
+	Accounts AS A
+	JOIN AccountsTrips AS AT ON AT.AccountId = A.Id
+	JOIN Trips AS T ON T.Id = AT.TripId
+	JOIN Rooms AS R ON R.Id = T.RoomId
+	JOIN Hotels AS H ON H.Id = R.HotelId
+	JOIN Cities AS C ON C.Id = H.CityId
+GROUP BY
+	C.CountryCode
+	,A.Email
+	,A.Id
+	) AS TEMP
+WHERE
+	TEMP.TripsRank = 1
+ORDER BY
+	TEMP.Trips DESC
+	,TEMP.Id
+	
+	
+
+
