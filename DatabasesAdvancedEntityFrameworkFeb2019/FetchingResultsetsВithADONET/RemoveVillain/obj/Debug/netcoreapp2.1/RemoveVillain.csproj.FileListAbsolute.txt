@@ -1,0 +1,14 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\bin\Debug\netcoreapp2.1\RemoveVillain.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\bin\Debug\netcoreapp2.1\RemoveVillain.runtimeconfig.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\bin\Debug\netcoreapp2.1\RemoveVillain.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\bin\Debug\netcoreapp2.1\RemoveVillain.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\obj\Debug\netcoreapp2.1\RemoveVillain.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\obj\Debug\netcoreapp2.1\RemoveVillain.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\obj\Debug\netcoreapp2.1\RemoveVillain.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\obj\Debug\netcoreapp2.1\RemoveVillain.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\bin\Debug\netcoreapp2.1\RemoveVillain.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\bin\Debug\netcoreapp2.1\InitialSetup.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\bin\Debug\netcoreapp2.1\InitialSetup.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\obj\Debug\netcoreapp2.1\RemoveVillain.csproj.CopyComplete
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\obj\Debug\netcoreapp2.1\RemoveVillain.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\RemoveVillain\obj\Debug\netcoreapp2.1\RemoveVillain.pdb

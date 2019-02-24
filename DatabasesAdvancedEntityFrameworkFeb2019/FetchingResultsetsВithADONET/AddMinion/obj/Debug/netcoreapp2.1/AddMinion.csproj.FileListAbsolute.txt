@@ -1,0 +1,14 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\bin\Debug\netcoreapp2.1\AddMinion.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\bin\Debug\netcoreapp2.1\AddMinion.runtimeconfig.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\bin\Debug\netcoreapp2.1\AddMinion.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\bin\Debug\netcoreapp2.1\AddMinion.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\obj\Debug\netcoreapp2.1\AddMinion.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\obj\Debug\netcoreapp2.1\AddMinion.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\obj\Debug\netcoreapp2.1\AddMinion.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\bin\Debug\netcoreapp2.1\AddMinion.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\bin\Debug\netcoreapp2.1\InitialSetup.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\bin\Debug\netcoreapp2.1\InitialSetup.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\obj\Debug\netcoreapp2.1\AddMinion.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\obj\Debug\netcoreapp2.1\AddMinion.csproj.CopyComplete
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\obj\Debug\netcoreapp2.1\AddMinion.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\AddMinion\obj\Debug\netcoreapp2.1\AddMinion.pdb

@@ -1,0 +1,14 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\bin\Debug\netcoreapp2.1\VillainNames.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\bin\Debug\netcoreapp2.1\VillainNames.runtimeconfig.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\bin\Debug\netcoreapp2.1\VillainNames.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\bin\Debug\netcoreapp2.1\VillainNames.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\obj\Debug\netcoreapp2.1\VillainNames.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\obj\Debug\netcoreapp2.1\VillainNames.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\obj\Debug\netcoreapp2.1\VillainNames.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\obj\Debug\netcoreapp2.1\VillainNames.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\bin\Debug\netcoreapp2.1\VillainNames.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\bin\Debug\netcoreapp2.1\InitialSetup.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\bin\Debug\netcoreapp2.1\InitialSetup.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\obj\Debug\netcoreapp2.1\VillainNames.csproj.CopyComplete
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\obj\Debug\netcoreapp2.1\VillainNames.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\VillainNames\obj\Debug\netcoreapp2.1\VillainNames.pdb

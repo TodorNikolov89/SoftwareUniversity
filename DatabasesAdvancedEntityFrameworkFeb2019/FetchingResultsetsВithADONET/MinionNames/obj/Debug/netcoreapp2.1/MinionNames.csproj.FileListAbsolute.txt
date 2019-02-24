@@ -1,0 +1,14 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\bin\Debug\netcoreapp2.1\MinionNames.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\bin\Debug\netcoreapp2.1\MinionNames.runtimeconfig.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\bin\Debug\netcoreapp2.1\MinionNames.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\bin\Debug\netcoreapp2.1\MinionNames.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\obj\Debug\netcoreapp2.1\MinionNames.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\obj\Debug\netcoreapp2.1\MinionNames.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\obj\Debug\netcoreapp2.1\MinionNames.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\obj\Debug\netcoreapp2.1\MinionNames.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\bin\Debug\netcoreapp2.1\MinionNames.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\bin\Debug\netcoreapp2.1\InitialSetup.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\bin\Debug\netcoreapp2.1\InitialSetup.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\obj\Debug\netcoreapp2.1\MinionNames.csproj.CopyComplete
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\obj\Debug\netcoreapp2.1\MinionNames.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\FetchingResultsetsВithADONET\MinionNames\obj\Debug\netcoreapp2.1\MinionNames.pdb
