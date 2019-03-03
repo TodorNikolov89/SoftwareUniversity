@@ -1,0 +1,11 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\bin\Debug\netcoreapp2.1\SoftUniDatabase.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\bin\Debug\netcoreapp2.1\SoftUniDatabase.runtimeconfig.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\bin\Debug\netcoreapp2.1\SoftUniDatabase.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\bin\Debug\netcoreapp2.1\SoftUniDatabase.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\bin\Debug\netcoreapp2.1\SoftUniDatabase.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\SoftUniDatabase.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\SoftUniDatabase.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\SoftUniDatabase.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\SoftUniDatabase.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\SoftUniDatabase.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\SoftUniDatabase.pdb

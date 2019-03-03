@@ -1,0 +1,11 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\bin\Debug\netcoreapp2.1\DatabaseFirst.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\bin\Debug\netcoreapp2.1\DatabaseFirst.runtimeconfig.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\bin\Debug\netcoreapp2.1\DatabaseFirst.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\bin\Debug\netcoreapp2.1\DatabaseFirst.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\DatabaseFirst.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\DatabaseFirst.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\DatabaseFirst.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\DatabaseFirst.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\bin\Debug\netcoreapp2.1\DatabaseFirst.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\DatabaseFirst.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\IntroductionToEntityFramework\DatabaseFirst\obj\Debug\netcoreapp2.1\DatabaseFirst.pdb
