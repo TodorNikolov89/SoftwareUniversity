@@ -1,0 +1,18 @@
+C:\Users\Todor's PC\source\repos\CodeFirst_Exercise\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.deps.json
+C:\Users\Todor's PC\source\repos\CodeFirst_Exercise\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.dll
+C:\Users\Todor's PC\source\repos\CodeFirst_Exercise\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.pdb
+C:\Users\Todor's PC\source\repos\CodeFirst_Exercise\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.csprojAssemblyReference.cache
+C:\Users\Todor's PC\source\repos\CodeFirst_Exercise\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Todor's PC\source\repos\CodeFirst_Exercise\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Todor's PC\source\repos\CodeFirst_Exercise\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.AssemblyInfo.cs
+C:\Users\Todor's PC\source\repos\CodeFirst_Exercise\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.dll
+C:\Users\Todor's PC\source\repos\CodeFirst_Exercise\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\HospitalDatabase\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\HospitalDatabase\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\HospitalDatabase\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\HospitalDatabase\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\HospitalDatabase\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\HospitalDatabase\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\HospitalDatabase\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\HospitalDatabase\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\HospitalDatabase\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.1\P01_HospitalDatabase.Data.Models.pdb
