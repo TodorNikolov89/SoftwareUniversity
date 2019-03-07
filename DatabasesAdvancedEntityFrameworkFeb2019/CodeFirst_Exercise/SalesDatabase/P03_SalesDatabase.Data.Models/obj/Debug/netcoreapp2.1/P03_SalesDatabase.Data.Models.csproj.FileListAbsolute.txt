@@ -1,0 +1,9 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data.Models\bin\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data.Models\bin\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data.Models\bin\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data.Models\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data.Models\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data.Models\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data.Models\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data.Models\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data.Models\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.pdb

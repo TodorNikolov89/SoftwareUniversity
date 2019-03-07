@@ -1,0 +1,12 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.1\P03_SalesDatabase.Data.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.1\P03_SalesDatabase.Data.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.1\P03_SalesDatabase.Data.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.1\P03_SalesDatabase.Data.Models.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\CodeFirst_Exercise\SalesDatabase\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.1\P03_SalesDatabase.Data.csproj.CopyComplete
