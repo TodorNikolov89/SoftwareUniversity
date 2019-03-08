@@ -6,6 +6,6 @@ namespace P03_SalesDatabase.Data
 {
     public class Config
     {
-        public const string ConnectionString = @"Server=TodorsPC\SQLEXPRESS;Database=SalesDatabase;Integrated Security=True;";
+        public const string ConnectionString = @"Server=.;Database=SalesDatabase;Integrated Security=True;";
     }
 }

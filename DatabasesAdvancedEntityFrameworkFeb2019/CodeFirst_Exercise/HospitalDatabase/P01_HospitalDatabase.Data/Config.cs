@@ -6,6 +6,6 @@
 
     public class Config
     {
-        public const string ConnectionString = @"Server=TodorsPC\SQLEXPRESS;Database=Hospital;Integrated Security=True;";
+        public const string ConnectionString = @"Server=.;Database=Hospital;Integrated Security=True;";
     }
 }
