@@ -1,0 +1,8 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Models\bin\Debug\netcoreapp2.0\BookShop.Models.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Models\bin\Debug\netcoreapp2.0\BookShop.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Models\bin\Debug\netcoreapp2.0\BookShop.Models.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Models\obj\Debug\netcoreapp2.0\BookShop.Models.pdb

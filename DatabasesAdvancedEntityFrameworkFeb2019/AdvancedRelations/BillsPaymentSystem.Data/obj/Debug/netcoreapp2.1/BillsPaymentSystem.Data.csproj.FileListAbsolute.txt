@@ -1,0 +1,14 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Models.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.csproj.CopyComplete
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\obj\Debug\netcoreapp2.1\BillsPaymentSystem.Data.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.runtimeconfig.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedRelations\BillsPaymentSystem.Data\bin\Debug\netcoreapp2.1\BillsPaymentSystem.Data.runtimeconfig.dev.json

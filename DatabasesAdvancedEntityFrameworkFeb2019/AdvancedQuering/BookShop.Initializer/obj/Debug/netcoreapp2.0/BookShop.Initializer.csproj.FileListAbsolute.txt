@@ -1,0 +1,14 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\bin\Debug\netcoreapp2.0\BookShop.Initializer.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\bin\Debug\netcoreapp2.0\BookShop.Initializer.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\bin\Debug\netcoreapp2.0\BookShop.Initializer.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\bin\Debug\netcoreapp2.0\BookShop.Data.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\bin\Debug\netcoreapp2.0\BookShop.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\bin\Debug\netcoreapp2.0\BookShop.Data.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\bin\Debug\netcoreapp2.0\BookShop.Models.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\obj\Debug\netcoreapp2.0\BookShop.Initializer.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\obj\Debug\netcoreapp2.0\BookShop.Initializer.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\obj\Debug\netcoreapp2.0\BookShop.Initializer.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\obj\Debug\netcoreapp2.0\BookShop.Initializer.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\obj\Debug\netcoreapp2.0\BookShop.Initializer.csproj.CopyComplete
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\obj\Debug\netcoreapp2.0\BookShop.Initializer.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AdvancedQuering\BookShop.Initializer\obj\Debug\netcoreapp2.0\BookShop.Initializer.pdb
