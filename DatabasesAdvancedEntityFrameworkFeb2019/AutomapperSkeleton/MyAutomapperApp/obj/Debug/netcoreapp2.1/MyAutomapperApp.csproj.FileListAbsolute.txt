@@ -1,0 +1,14 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\obj\Debug\netcoreapp2.1\MyAutomapperApp.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\obj\Debug\netcoreapp2.1\MyAutomapperApp.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\obj\Debug\netcoreapp2.1\MyAutomapperApp.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\obj\Debug\netcoreapp2.1\MyAutomapperApp.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\bin\Debug\netcoreapp2.1\MyAutomapperApp.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\bin\Debug\netcoreapp2.1\MyAutomapperApp.runtimeconfig.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\bin\Debug\netcoreapp2.1\MyAutomapperApp.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\bin\Debug\netcoreapp2.1\MyAutomapperApp.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\bin\Debug\netcoreapp2.1\Automapper.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\bin\Debug\netcoreapp2.1\Automapper.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\obj\Debug\netcoreapp2.1\MyAutomapperApp.csproj.CopyComplete
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\bin\Debug\netcoreapp2.1\MyAutomapperApp.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\obj\Debug\netcoreapp2.1\MyAutomapperApp.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\MyAutomapperApp\obj\Debug\netcoreapp2.1\MyAutomapperApp.pdb
