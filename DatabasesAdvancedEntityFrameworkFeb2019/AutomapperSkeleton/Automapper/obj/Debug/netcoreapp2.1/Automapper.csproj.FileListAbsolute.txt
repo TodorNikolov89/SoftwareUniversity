@@ -25,3 +25,12 @@ D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkele
 D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\obj\Debug\netcoreapp2.1\Automapper.AssemblyInfo.cs
 D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\obj\Debug\netcoreapp2.1\Automapper.dll
 D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\obj\Debug\netcoreapp2.1\Automapper.pdb
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\bin\Debug\netcoreapp2.1\Automapper.deps.json
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\bin\Debug\netcoreapp2.1\Automapper.dll
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\bin\Debug\netcoreapp2.1\Automapper.pdb
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\obj\Debug\netcoreapp2.1\Automapper.csprojAssemblyReference.cache
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\obj\Debug\netcoreapp2.1\Automapper.csproj.CoreCompileInputs.cache
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\obj\Debug\netcoreapp2.1\Automapper.AssemblyInfoInputs.cache
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\obj\Debug\netcoreapp2.1\Automapper.AssemblyInfo.cs
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\obj\Debug\netcoreapp2.1\Automapper.dll
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutomapperSkeleton\Automapper\obj\Debug\netcoreapp2.1\Automapper.pdb

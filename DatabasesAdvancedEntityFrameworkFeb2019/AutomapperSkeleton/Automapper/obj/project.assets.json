@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Todor's PC\\.nuget\\packages\\": {},
+    "C:\\Users\\Todor\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\SoftwareUniversity\\DatabasesAdvancedEntityFrameworkFeb2019\\AutomapperSkeleton\\Automapper\\Automapper.csproj",
+      "projectUniqueName": "D:\\SoftwareUniversity\\DatabasesAdvancedEntityFrameworkFeb2019\\AutomapperSkeleton\\Automapper\\Automapper.csproj",
       "projectName": "Automapper",
-      "projectPath": "D:\\C#\\SoftwareUniversity\\DatabasesAdvancedEntityFrameworkFeb2019\\AutomapperSkeleton\\Automapper\\Automapper.csproj",
-      "packagesPath": "C:\\Users\\Todor's PC\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\SoftwareUniversity\\DatabasesAdvancedEntityFrameworkFeb2019\\AutomapperSkeleton\\Automapper\\obj\\",
+      "projectPath": "D:\\SoftwareUniversity\\DatabasesAdvancedEntityFrameworkFeb2019\\AutomapperSkeleton\\Automapper\\Automapper.csproj",
+      "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
+      "outputPath": "D:\\SoftwareUniversity\\DatabasesAdvancedEntityFrameworkFeb2019\\AutomapperSkeleton\\Automapper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Todor's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Todor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

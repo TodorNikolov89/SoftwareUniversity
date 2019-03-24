@@ -12,7 +12,6 @@ namespace MyAutomapperApp
     {
         public static void Main(string[] args)
         {
-
             IServiceProvider services = ConfigureServices();
             IEngine engine = new Engine(services);
             engine.Run();
@@ -22,7 +21,7 @@ namespace MyAutomapperApp
         {
             var serviceCollection = new ServiceCollection();
 
-            serviceCollection.AddDbContext<MyAppContext>(db => db.UseSqlServer(@"Server=TodorsPC\SQLEXPRESS;Database=MySpecialApp;Integrated Security=true;"));
+            serviceCollection.AddDbContext<MyAppContext>(db => db.UseSqlServer(@"Server=.;Database=MySpecialApp;Integrated Security=true;"));
 
             serviceCollection.AddTransient<ICommandInterpreter, CommandInterpreter>();
             serviceCollection.AddTransient<Mapper>();

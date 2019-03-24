@@ -1,0 +1,9 @@
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutoMappingObjects\FastFood.Models\bin\Debug\netcoreapp2.1\FastFood.Models.deps.json
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutoMappingObjects\FastFood.Models\bin\Debug\netcoreapp2.1\FastFood.Models.dll
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutoMappingObjects\FastFood.Models\bin\Debug\netcoreapp2.1\FastFood.Models.pdb
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutoMappingObjects\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.csprojAssemblyReference.cache
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutoMappingObjects\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.csproj.CoreCompileInputs.cache
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutoMappingObjects\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.AssemblyInfoInputs.cache
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutoMappingObjects\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.AssemblyInfo.cs
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutoMappingObjects\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.dll
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\AutoMappingObjects\FastFood.Models\obj\Debug\netcoreapp2.1\FastFood.Models.pdb
