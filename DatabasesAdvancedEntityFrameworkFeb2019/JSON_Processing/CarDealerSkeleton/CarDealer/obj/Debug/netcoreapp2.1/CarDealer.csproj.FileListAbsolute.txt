@@ -20,3 +20,14 @@ D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\Ca
 D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.AssemblyInfo.cs
 D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.dll
 D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.pdb
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.deps.json
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.runtimeconfig.json
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.runtimeconfig.dev.json
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.dll
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\bin\Debug\netcoreapp2.1\CarDealer.pdb
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.csprojAssemblyReference.cache
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.csproj.CoreCompileInputs.cache
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.AssemblyInfoInputs.cache
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.AssemblyInfo.cs
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.dll
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\JSON_Processing\CarDealerSkeleton\CarDealer\obj\Debug\netcoreapp2.1\CarDealer.pdb

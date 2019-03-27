@@ -27,7 +27,7 @@ namespace CarDealer.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server=TodorNikolov\SQLEXPRESS;Database=CarDealer;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer(@"Server=PI1602\SQLEXPRESS;Database=CarDealer;Trusted_Connection=True;");
             }
         }
 
