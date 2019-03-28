@@ -12,7 +12,6 @@ namespace CarDealer.DTO.Export
         public string Model { get; set; }
 
         public long TravelledDistance { get; set; }
-
-        public PartExportDto[] Parts { get; set; }
+        
     }
 }

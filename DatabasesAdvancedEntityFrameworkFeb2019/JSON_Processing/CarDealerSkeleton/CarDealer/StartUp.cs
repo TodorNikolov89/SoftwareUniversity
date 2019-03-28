@@ -57,7 +57,7 @@ namespace CarDealer
             //Console.WriteLine(GetLocalSuppliers(context));
 
             //Query 17. Export Cars with Their List of Parts
-            Console.WriteLine(GetCarsWithTheirListOfParts(context));
+            //Console.WriteLine(GetCarsWithTheirListOfParts(context));
 
             //Query 18. Export Total Sales by Customer
             //Console.WriteLine(GetTotalSalesByCustomer(context));
@@ -69,26 +69,25 @@ namespace CarDealer
 
         public static string GetSalesWithAppliedDiscount(CarDealerContext context)
         {
-            //var sales = context.Sales
-            //    .Select(c => new SaleDto
-            //    {
-            //        Car = new CarSaleDto
-            //        {
-            //            Make = c.Car.Make,
-            //            Model = c.Car.Model,
-            //            TravelledDistance = c.Car.TravelledDistance
-            //        },
-            //        CustomerName = c.Customer.Name,
-            //        Discount = c.Discount,
-            //        Price = c.Car.PartCars.Sum(s => s.Part.Price),
-            //        PriceWithDiscount = c.Car.PartCars.Sum(s => s.Part.Price) - c.Car.PartCars.Sum(s => s.Part.Price) * (c.Discount / 100)
-            //    })
-            //    .Take(10)
-            //    .ToArray();
+            var sales = context.Sales
+                .Select(c => new SaleDto()
+                {
+                    car = new CarExportDto()
+                    {
+                        Make = c.Car.Make,
+                        Model = c.Car.Model,
+                        TravelledDistance = c.Car.TravelledDistance
+                    },
+                    customerName = c.Customer.Name,
+                    Discount = c.Discount + (c.Customer.IsYoungDriver ? 0.05M : 0M),
+                    price = c.Car.PartCars.Sum(s => s.Part.Price),
+                    priceWithDiscount = c.Car.PartCars.Sum(pc => pc.Part.Price) + (c.Car.PartCars.Sum(pc => pc.Part.Price) * c.Discount)
+                })
+                .ToArray();
 
-            //string jsonString = JsonConvert.SerializeObject(sales, Formatting.Indented);
-
-            return null;
+            
+            string jsonString = JsonConvert.SerializeObject(sales, Formatting.Indented);
+            return jsonString;
 
         }
 
@@ -111,31 +110,30 @@ namespace CarDealer
 
         public static string GetCarsWithTheirListOfParts(CarDealerContext context)
         {
-            //TODO
             var cars = context
                 .Cars
-                .Select(c => new CarExportDto()
+                .Select(c => new ExportInfo()
                 {
-                    Make = c.Make,
-                    Model = c.Model,
-                    TravelledDistance = c.TravelledDistance,
-                    Parts = c.PartCars
-                        .Select(pc => new PartExportDto()
-                        {
-                            Name = pc.Part.Name,
-                            Price = pc.Part.Price
-                        })
-                        .ToArray()
+                    car = new CarExportDto()
+                    {
+                        Make = c.Make,
+                        Model = c.Model,
+                        TravelledDistance = c.TravelledDistance,
+                    },
+                    parts = c.PartCars.Select(p => new PartExportDto()
+                    {
+                        Name = p.Part.Name,
+                        Price = $"{p.Part.Price:f2}"
+                    })
+                    .ToList()
                 })
                 .ToArray();
 
+            string jsonString = JsonConvert.SerializeObject(cars, Formatting.Indented);
+            return jsonString;
 
-            var jsonCars = JsonConvert.SerializeObject(cars, Formatting.Indented);
-
-            return jsonCars;
 
         }
-
 
         public static string GetLocalSuppliers(CarDealerContext context)
         {
