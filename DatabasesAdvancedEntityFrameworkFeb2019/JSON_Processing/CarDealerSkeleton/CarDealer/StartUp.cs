@@ -114,25 +114,26 @@ namespace CarDealer
             //TODO
             var cars = context
                 .Cars
-                .Select(c => new CarExportDto()
+                .Select(c => new ExportInfo()
                 {
-                    Make = c.Make,
-                    Model = c.Model,
-                    TravelledDistance = c.TravelledDistance,
-                    Parts = c.PartCars
-                        .Select(pc => new PartExportDto()
-                        {
-                            Name = pc.Part.Name,
-                            Price = pc.Part.Price
-                        })
-                        .ToArray()
+                    car = new CarExportDto()
+                    {
+                        Make = c.Make,
+                        Model = c.Model,
+                        TravelledDistance = c.TravelledDistance,
+                    },
+                    parts = c.PartCars.Select(p => new PartExportDto()
+                    {
+                        Name = p.Part.Name,
+                        Price = $"{p.Part.Price:f2}"
+                    })
+                    .ToList()
                 })
                 .ToArray();
 
+            string jsonString = JsonConvert.SerializeObject(cars, Formatting.Indented);
+            return jsonString;
 
-            var jsonCars = JsonConvert.SerializeObject(cars, Formatting.Indented);
-
-            return jsonCars;
 
         }
 
