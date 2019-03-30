@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 namespace ProductShop.Dtos.Export
 {
     [XmlType("Product")]
-    public class ExportSoldProductsDto
+    public class SoldProductsDto
     {
         [XmlElement("name")]
         public string Name { get; set; }

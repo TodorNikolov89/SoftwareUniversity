@@ -1,7 +1,8 @@
 ﻿namespace ProductShop.Models
 {
     using System.Collections.Generic;
-
+    using System.Xml.Serialization;
+    
     public class Product
     {
         public Product()

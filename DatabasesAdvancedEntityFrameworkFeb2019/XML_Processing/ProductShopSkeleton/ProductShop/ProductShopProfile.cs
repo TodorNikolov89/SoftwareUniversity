@@ -17,9 +17,9 @@ namespace ProductShop
 
             CreateMap<CategoryProductDto, CategoryProduct>();
 
-            CreateMap<ExportProductDto, Product>();
+            CreateMap<ProductDtoExport, Product>();
 
-
+            CreateMap<CategoryDtoExport, Category>();
 
         }
     }

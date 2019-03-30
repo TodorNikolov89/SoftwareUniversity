@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 namespace ProductShop.Dtos.Export
 {
     [XmlType("User")]
-    public class ExportUserDto
+    public class UsersDto
     {
         [XmlElement("firstName")]
         public string FirstName { get; set; }
@@ -14,8 +14,10 @@ namespace ProductShop.Dtos.Export
         [XmlElement("lastName")]
         public string LastName { get; set; }
 
-        [XmlElement("soldProducts")]
-        public ICollection<ExportSoldProductsDto> Products { get; set; }
+        [XmlElement("age")]
+        public int? Age { get; set; }
 
+        [XmlElement("SoldProducts")]
+        public UserSoldProducts SoldProducts { get; set; }
     }
 }

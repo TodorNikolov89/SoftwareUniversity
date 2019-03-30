@@ -24,7 +24,7 @@
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server=TodorNikolov\SQLEXPRESS;Database=ProductShop;Integrated Security=True");
+                optionsBuilder.UseSqlServer(@"Server=TodorsPC\SQLEXPRESS;Database=ProductShop;Integrated Security=True");
             }
         }
 

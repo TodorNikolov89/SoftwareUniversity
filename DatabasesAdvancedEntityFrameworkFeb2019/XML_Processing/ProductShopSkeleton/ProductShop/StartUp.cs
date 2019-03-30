@@ -20,12 +20,6 @@
     {
         public static void Main(string[] args)
         {
-            //var config = new MapperConfiguration(cfg =>
-            //{
-            //    cfg.AddProfile<ProductShopProfile>();
-            //});
-
-            //var mapper = config.CreateMapper();
 
             Mapper.Initialize(x => { x.AddProfile<ProductShopProfile>(); });
 
@@ -51,8 +45,81 @@
             //Console.WriteLine(GetProductsInRange(context));
 
             //Query 6. Sold Products
-            Console.WriteLine(GetSoldProducts(context));
+            //Console.WriteLine(GetSoldProducts(context));
 
+            //Query 7. Categories By Products Count
+            //Console.WriteLine(GetCategoriesByProductsCount(context));
+
+            //Query 8. Users and Products
+            Console.WriteLine(GetUsersWithProducts(context));
+
+        }
+        public static string GetUsersWithProducts(ProductShopContext context)
+        {
+            var users = context
+                .Users
+                .Where(u => u.ProductsSold.Any())
+                .Select(u => new UsersDto()
+                {
+                    FirstName = u.FirstName,
+                    LastName = u.LastName,
+                    Age = u.Age,
+                    SoldProducts = new UserSoldProducts
+                    {
+                        Count = u.ProductsSold.Count,
+                        Products = u.ProductsSold.Select(ps => new SoldProductsDto
+                        {
+                            Name = ps.Name,
+                            Price = ps.Price
+                        })
+                        .OrderByDescending(p => p.Price)
+                        .ToList()
+                    }
+                })
+                .OrderByDescending(p => p.SoldProducts.Count)
+                .Take(10)
+                .ToList();
+
+            var custom = new UserProductsInfoDto
+            {
+                Count = context.Users.Count(x=>x.ProductsSold.Any()),
+                Users = users
+            };
+            
+            StringBuilder sb = new StringBuilder();
+            XmlSerializer serializer = new XmlSerializer(typeof(UserProductsInfoDto), new XmlRootAttribute("Users"));
+            XmlSerializerNamespaces xmlNamespaces = new XmlSerializerNamespaces(new[] { XmlQualifiedName.Empty });
+            serializer.Serialize(new StringWriter(sb), custom, xmlNamespaces);
+
+            string result = sb.ToString();
+
+            return result;
+        }
+
+        public static string GetCategoriesByProductsCount(ProductShopContext context)
+        {
+            var categories = context
+                .Categories
+                .Select(c => new CategoryDtoExport()
+                {
+                    Name = c.Name,
+                    Count = c.CategoryProducts.Count(),
+                    AveragePrice = c.CategoryProducts.Average(x => x.Product.Price),
+                    TotalRevenue = c.CategoryProducts.Sum(x => x.Product.Price),
+
+                })
+                .OrderByDescending(c => c.Count)
+                .ThenBy(t => t.TotalRevenue)
+                .ToArray();
+            StringBuilder sb = new StringBuilder();
+            ;
+            XmlSerializer serializer = new XmlSerializer(typeof(Dtos.Export.CategoryDtoExport[]), new XmlRootAttribute("Categories"));
+            XmlSerializerNamespaces xmlNamespaces = new XmlSerializerNamespaces(new[] { XmlQualifiedName.Empty });
+            serializer.Serialize(new StringWriter(sb), categories, xmlNamespaces);
+
+            string result = sb.ToString();
+
+            return result;
 
         }
 
@@ -62,22 +129,22 @@
                 .Where(u => u.ProductsSold.Count > 0)
                 .OrderBy(l => l.LastName)
                 .ThenBy(f => f.FirstName)
-                .Select(u => new ExportUserDto()
+                .Select(u => new UserDtoExport()
                 {
                     FirstName = u.FirstName,
                     LastName = u.LastName,
-                    Products = u.ProductsSold.Select(p => new ExportSoldProductsDto()
+                    Products = u.ProductsSold.Select(p => new SoldProductsDto()
                     {
                         Name = p.Name,
                         Price = p.Price
                     })
-                    .ToArray()
+                    .ToList()
                 })
-                .Take(10)
+                .Take(5)
                 .ToArray();
 
             StringBuilder sb = new StringBuilder();
-            XmlSerializer serializer = new XmlSerializer(typeof(ExportUserDto[]), new XmlRootAttribute("Users"));
+            XmlSerializer serializer = new XmlSerializer(typeof(Dtos.Export.UserDtoExport[]), new XmlRootAttribute("Users"));
             XmlSerializerNamespaces xmlNamespaces = new XmlSerializerNamespaces(new[] { XmlQualifiedName.Empty });
             serializer.Serialize(new StringWriter(sb), users, xmlNamespaces);
 
@@ -92,7 +159,7 @@
             var products = context.Products
                 .Where(p => p.Price >= 500 && p.Price <= 1000 && p.Buyer != null)
                 .OrderBy(p => p.Price)
-                .Select(p => new ExportProductDto
+                .Select(p => new ProductDtoExport
                 {
                     Name = p.Name,
                     Price = p.Price,
@@ -102,7 +169,7 @@
                 .ToArray();
 
             StringBuilder sb = new StringBuilder();
-            XmlSerializer serializer = new XmlSerializer(typeof(ExportProductDto[]), new XmlRootAttribute("Products"));
+            XmlSerializer serializer = new XmlSerializer(typeof(Dtos.Export.ProductDtoExport[]), new XmlRootAttribute("Products"));
             XmlSerializerNamespaces xmlNamespaces = new XmlSerializerNamespaces(new[] { XmlQualifiedName.Empty });
             serializer.Serialize(new StringWriter(sb), products, xmlNamespaces);
 
@@ -152,8 +219,8 @@
 
         public static string ImportCategories(ProductShopContext context, string inputXml)
         {
-            var serialiser = new XmlSerializer(typeof(CategoryDto[]), new XmlRootAttribute("Categories"));
-            var deserializedCategories = (CategoryDto[])serialiser.Deserialize(new StringReader(inputXml));
+            var serialiser = new XmlSerializer(typeof(Dtos.Import.CategoryDto[]), new XmlRootAttribute("Categories"));
+            var deserializedCategories = (Dtos.Import.CategoryDto[])serialiser.Deserialize(new StringReader(inputXml));
 
             List<Category> categories = new List<Category>();
 
@@ -181,8 +248,8 @@
 
         public static string ImportProducts(ProductShopContext context, string inputXml)
         {
-            var serializer = new XmlSerializer(typeof(ProductDto[]), new XmlRootAttribute("Products"));
-            var deserializedProducts = (ProductDto[])serializer.Deserialize(new StringReader(inputXml));
+            var serializer = new XmlSerializer(typeof(Dtos.Import.ProductDto[]), new XmlRootAttribute("Products"));
+            var deserializedProducts = (Dtos.Import.ProductDto[])serializer.Deserialize(new StringReader(inputXml));
 
             List<Product> products = new List<Product>();
 
@@ -210,8 +277,8 @@
 
         public static string ImportUsers(ProductShopContext context, string xmlString)
         {
-            var serializer = new XmlSerializer(typeof(UserDto[]), new XmlRootAttribute("Users"));
-            var deserializedUsers = (UserDto[])serializer.Deserialize(new StringReader(xmlString));
+            var serializer = new XmlSerializer(typeof(Dtos.Import.UserDto[]), new XmlRootAttribute("Users"));
+            var deserializedUsers = (Dtos.Import.UserDto[])serializer.Deserialize(new StringReader(xmlString));
 
             List<User> users = new List<User>();
 

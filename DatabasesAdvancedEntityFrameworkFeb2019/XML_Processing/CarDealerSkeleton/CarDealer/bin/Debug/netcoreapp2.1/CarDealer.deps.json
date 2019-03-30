@@ -1,35 +1,30 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "73e4ebb23c40a81804d3b026cccbcb38f19acdb0"
+    "signature": "c0e59058f0caacb8c593e087e2f65d41d8665f10"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "ProductShop/1.0.0": {
+      "CarDealer/1.0.0": {
         "dependencies": {
-          "AutoMapper": "8.0.0",
-          "Microsoft.EntityFrameworkCore": "2.1.1",
-          "Microsoft.EntityFrameworkCore.Design": "2.1.0",
+          "AutoMapper": "7.0.1",
           "Microsoft.EntityFrameworkCore.Proxies": "2.1.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.0",
-          "Microsoft.Extensions.DependencyInjection": "2.1.1",
           "Newtonsoft.Json": "10.0.1"
         },
         "runtime": {
-          "ProductShop.dll": {}
+          "CarDealer.dll": {}
         }
       },
-      "AutoMapper/8.0.0": {
+      "AutoMapper/7.0.1": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "System.Reflection.Emit": "4.3.0"
+          "System.ValueTuple": "4.5.0"
         },
         "runtime": {
-          "lib/netstandard2.0/AutoMapper.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.0.0"
+          "lib/netcoreapp2.0/AutoMapper.dll": {
+            "assemblyVersion": "7.0.1.0",
+            "fileVersion": "7.0.1.0"
           }
         }
       },
@@ -52,7 +47,26 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.CSharp/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Threading": "4.3.0"
+        }
+      },
       "Microsoft.EntityFrameworkCore/2.1.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "2.1.1",
@@ -82,18 +96,6 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/2.1.1": {},
-      "Microsoft.EntityFrameworkCore.Design/2.1.0": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Microsoft.EntityFrameworkCore.Relational": "2.1.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.0.18136"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore.Proxies/2.1.1": {
         "dependencies": {
           "Castle.Core": "4.2.1",
@@ -127,11 +129,6 @@
             "assemblyVersion": "2.1.1.0",
             "fileVersion": "2.1.1.18157"
           }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Tools/2.1.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.1.0"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
@@ -274,7 +271,7 @@
       },
       "Newtonsoft.Json/10.0.1": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.3.0",
           "System.Collections": "4.3.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
@@ -789,6 +786,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.ValueTuple/4.5.0": {},
       "System.Xml.ReaderWriter/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -841,17 +839,17 @@
     }
   },
   "libraries": {
-    "ProductShop/1.0.0": {
+    "CarDealer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "AutoMapper/8.0.0": {
+    "AutoMapper/7.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-px8ZMtIq84dxciB29V+ZYOtsRLZP4JlflDDMW13LyeRdwsnIInzlcSHSxpWmVD6U3bbOl2FeLlgomnVtm0jvXw==",
-      "path": "automapper/8.0.0",
-      "hashPath": "automapper.8.0.0.nupkg.sha512"
+      "sha512": "sha512-6xHbhsW09sWjjYuE1sqhYn25PQzB6UEUVPME5uhlaIz2NR2+L3+FGbVxvknJKug1BLp6VTLxDb5RcGXKMm0ieQ==",
+      "path": "automapper/7.0.1",
+      "hashPath": "automapper.7.0.1.nupkg.sha512"
     },
     "Castle.Core/4.2.1": {
       "type": "package",
@@ -860,12 +858,12 @@
       "path": "castle.core/4.2.1",
       "hashPath": "castle.core.4.2.1.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.5.0": {
+    "Microsoft.CSharp/4.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EGoBmf3Na2ppbhPePDE9PlX81r1HuOZH5twBrq7couJZiPTjUnD3648balerQJO6EJ8Sj+43+XuRwQ7r+3tE3w==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-P+MBhIM0YX+JqROuf7i306ZLJEjQYA9uUyRDE+OqwUI5sh41e2ZbPQV3LfAPh+29cmceE1pUffXsGfR4eMY3KA==",
+      "path": "microsoft.csharp/4.3.0",
+      "hashPath": "microsoft.csharp.4.3.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/2.1.1": {
       "type": "package",
@@ -888,13 +886,6 @@
       "path": "microsoft.entityframeworkcore.analyzers/2.1.1",
       "hashPath": "microsoft.entityframeworkcore.analyzers.2.1.1.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cCquUWV6A0kJXG5gDaFP2qAU1IY1De1lO8rxBwQVvu026JAn+SwFFWZVbzpzeJwW0WjYnsXeKOAgJcYwhqdxUw==",
-      "path": "microsoft.entityframeworkcore.design/2.1.0",
-      "hashPath": "microsoft.entityframeworkcore.design.2.1.0.nupkg.sha512"
-    },
     "Microsoft.EntityFrameworkCore.Proxies/2.1.1": {
       "type": "package",
       "serviceable": true,
@@ -915,13 +906,6 @@
       "sha512": "sha512-+owJ/RcmFOrRseb+9PEjqhoOcE7l+DeTe0Jwte0tqhYoiPxZpC6jtGhUhpftPSBkC662siPR7kNm2TfxpPVilQ==",
       "path": "microsoft.entityframeworkcore.sqlserver/2.1.1",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.2.1.1.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-vai8emRvqrlz9umXl9esppSkvWSV5900NrvvyCKTkFad9v+y7+zNwky7ChmFMWFHZEZo87umflm2VR/q0V5cOA==",
-      "path": "microsoft.entityframeworkcore.tools/2.1.0",
-      "hashPath": "microsoft.entityframeworkcore.tools.2.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
       "type": "package",
@@ -1405,6 +1389,13 @@
       "sha512": "sha512-npvJkVKl5rKXrtl1Kkm6OhOUaYGEiF9wFbppFRWSMoApKzt2PiPHT2Bb8a5sAWxprvdOAtvaARS9QYMznEUtug==",
       "path": "system.threading.tasks.extensions/4.3.0",
       "hashPath": "system.threading.tasks.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+gDrtQRdEsUSdPZEEcVRmBvs6xJmqGBqRzEGMQm5XqHxWTkZe/PSuomdth5ZPcOb/Oh2kIu6NChoI1JQk649jg==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
     "System.Xml.ReaderWriter/4.3.0": {
       "type": "package",
