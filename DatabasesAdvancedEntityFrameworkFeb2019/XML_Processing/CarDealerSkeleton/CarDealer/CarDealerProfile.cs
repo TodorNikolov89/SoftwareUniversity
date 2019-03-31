@@ -23,6 +23,10 @@ namespace CarDealer
 
             CreateMap<CarBmwExportDto, Car>();
 
+            CreateMap<PartCarDto, CarsImportDto>();
+
+            CreateMap<CustomerTotalSalesDto, Customer>();
+
 
         }
     }

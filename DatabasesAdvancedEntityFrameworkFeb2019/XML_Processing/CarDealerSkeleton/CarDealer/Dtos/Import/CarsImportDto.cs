@@ -17,7 +17,7 @@ namespace CarDealer.Dtos.Import
         [XmlElement("TraveledDistance")]
         public long TravelledDistance { get; set; }
 
-        [XmlElement("partId")]
-        public List<int> PartCars { get; set; }
+        [XmlArray("parts")]
+        public List<PartCarDto> PartCars { get; set; }
     }
 }
