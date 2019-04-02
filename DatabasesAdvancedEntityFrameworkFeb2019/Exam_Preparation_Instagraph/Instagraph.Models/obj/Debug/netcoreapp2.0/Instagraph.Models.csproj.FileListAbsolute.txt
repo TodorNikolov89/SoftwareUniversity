@@ -1,9 +1,8 @@
-D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\bin\Debug\netcoreapp2.0\Instagraph.Models.deps.json
-D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\bin\Debug\netcoreapp2.0\Instagraph.Models.dll
-D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\bin\Debug\netcoreapp2.0\Instagraph.Models.pdb
-D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.csprojAssemblyReference.cache
-D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.csproj.CoreCompileInputs.cache
-D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.AssemblyInfoInputs.cache
-D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.AssemblyInfo.cs
-D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.dll
-D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\bin\Debug\netcoreapp2.0\Instagraph.Models.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\bin\Debug\netcoreapp2.0\Instagraph.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\bin\Debug\netcoreapp2.0\Instagraph.Models.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.Models\obj\Debug\netcoreapp2.0\Instagraph.Models.pdb

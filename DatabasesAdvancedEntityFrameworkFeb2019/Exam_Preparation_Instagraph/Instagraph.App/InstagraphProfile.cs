@@ -9,6 +9,8 @@ namespace Instagraph.App
         public InstagraphProfile()
         {
             CreateMap<PictureDto, Picture>();
+
+            CreateMap<UserDto, User>();
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Instagraph.DataProcessor.Dto.Import
 {
+    
     public class PictureDto
     {
         [Required]

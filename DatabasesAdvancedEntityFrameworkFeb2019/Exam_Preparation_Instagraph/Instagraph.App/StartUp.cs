@@ -32,11 +32,11 @@ namespace Instagraph.App
 
                 sb.AppendLine(Deserializer.ImportPictures(context, picturesJson));
 
-                string usersJson = File.ReadAllText("files/input/users.json");
+                string usersJson = File.ReadAllText("../../../../Instagraph.App/files/input/users.json");
 
                 sb.AppendLine(Deserializer.ImportUsers(context, usersJson));
 
-                string followersJson = File.ReadAllText("files/input/users_followers.json");
+                string followersJson = File.ReadAllText("../../../../Instagraph.App/files/input/users_followers.json");
 
                 sb.AppendLine(Deserializer.ImportFollowers(context, followersJson));
 
