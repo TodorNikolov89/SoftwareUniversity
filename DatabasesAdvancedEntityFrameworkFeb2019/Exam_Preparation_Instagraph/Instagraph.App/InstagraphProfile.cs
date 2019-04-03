@@ -11,6 +11,8 @@ namespace Instagraph.App
             CreateMap<PictureDto, Picture>();
 
             CreateMap<UserDto, User>();
+
+            CreateMap<PostDto, Post>();
         }
     }
 }

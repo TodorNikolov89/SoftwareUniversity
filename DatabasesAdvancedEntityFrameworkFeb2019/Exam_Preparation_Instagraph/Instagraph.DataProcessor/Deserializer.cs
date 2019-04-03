@@ -12,6 +12,8 @@ using Instagraph.Data;
 using Instagraph.Models;
 using System.ComponentModel.DataAnnotations;
 using Instagraph.DataProcessor.Dto.Import;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace Instagraph.DataProcessor
 {
@@ -133,8 +135,8 @@ namespace Instagraph.DataProcessor
                 {
                     sb.AppendLine(ErrorMessage);
                     continue;
-                }               
-                
+                }
+
 
                 UserFollower uf = new UserFollower
                 {
@@ -157,12 +159,107 @@ namespace Instagraph.DataProcessor
 
         public static string ImportPosts(InstagraphContext context, string xmlString)
         {
-            throw new NotImplementedException();
+            XmlSerializer serializer = new XmlSerializer(typeof(PostDto[]), new XmlRootAttribute("posts"));
+            var deserializedPosts = (PostDto[])serializer.Deserialize(new MemoryStream(Encoding.UTF8.GetBytes(xmlString)));
+
+            List<Post> posts = new List<Post>();
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var dto in deserializedPosts)
+            {
+                if (!IsValid(dto))
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+                User user = context.Users.SingleOrDefault(u => u.Username.Equals(dto.User, StringComparison.OrdinalIgnoreCase));
+
+                if (user == null)
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+                Picture picture = context.Pictures.SingleOrDefault(u => u.Path.Equals(dto.Picture, StringComparison.OrdinalIgnoreCase));
+
+                if (picture == null)
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+                Post post = new Post
+                {
+                    Caption = dto.Caption,
+                    UserId = user.Id,
+                    PictureId = picture.Id
+                };
+
+                posts.Add(post);
+
+                sb.AppendLine(string.Format(SuccessMessage, nameof(Post), post.Caption));
+            }
+
+            context.Posts.AddRange(posts);
+            context.SaveChanges();
+
+            string result = sb.ToString();
+
+            return result;
+
         }
 
         public static string ImportComments(InstagraphContext context, string xmlString)
         {
-            throw new NotImplementedException();
+            XmlSerializer serializer = new XmlSerializer(typeof(CommentDto[]), new XmlRootAttribute("comments"));
+            var deserializedComments = (CommentDto[])serializer.Deserialize(new MemoryStream(Encoding.UTF8.GetBytes(xmlString)));
+
+            List<Comment> comments = new List<Comment>();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var dto in deserializedComments)
+            {
+                if (!IsValid(dto))
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+                User user = context.Users.SingleOrDefault(u => u.Username.Equals(dto.User, StringComparison.OrdinalIgnoreCase));
+
+                if (user == null)
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+                Post post = context.Posts.FirstOrDefault(p => p.Id == dto.Post.Id);
+
+                if (post == null)
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+                Comment comment = new Comment
+                {
+                    Content = dto.Content,
+                    UserId = user.Id,
+                    PostId = post.Id
+                };
+
+                comments.Add(comment);
+                sb.AppendLine(string.Format(SuccessMessage, nameof(Comment), comment.Content));
+            }
+            context.Comments.AddRange(comments);
+            context.SaveChanges();
+
+            string result = sb.ToString();
+
+            return result;
+
         }
         private static bool IsValid(object obj)
         {

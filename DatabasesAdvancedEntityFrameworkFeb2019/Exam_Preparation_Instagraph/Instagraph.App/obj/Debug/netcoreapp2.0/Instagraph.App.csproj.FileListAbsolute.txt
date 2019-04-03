@@ -1,18 +1,18 @@
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.App.deps.json
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.App.runtimeconfig.json
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.App.runtimeconfig.dev.json
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.App.dll
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.App.pdb
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.Data.dll
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.DataProcessor.dll
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.Models.dll
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.DataProcessor.pdb
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.Data.pdb
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.Models.pdb
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.csprojAssemblyReference.cache
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.csproj.CoreCompileInputs.cache
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.AssemblyInfoInputs.cache
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.AssemblyInfo.cs
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.csproj.CopyComplete
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.dll
-D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.pdb
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.App.deps.json
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.App.runtimeconfig.json
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.App.runtimeconfig.dev.json
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.App.dll
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.App.pdb
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.Data.dll
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.DataProcessor.dll
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.Models.dll
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.DataProcessor.pdb
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.Data.pdb
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\bin\Debug\netcoreapp2.0\Instagraph.Models.pdb
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.csprojAssemblyReference.cache
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.csproj.CoreCompileInputs.cache
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.AssemblyInfoInputs.cache
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.AssemblyInfo.cs
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.csproj.CopyComplete
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.dll
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_Instagraph\Instagraph.App\obj\Debug\netcoreapp2.0\Instagraph.App.pdb

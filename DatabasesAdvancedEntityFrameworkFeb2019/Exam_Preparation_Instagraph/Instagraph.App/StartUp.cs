@@ -15,11 +15,11 @@ namespace Instagraph.App
         {
             Mapper.Initialize(options => options.AddProfile<InstagraphProfile>());
 
-            //Console.WriteLine(ResetDatabase());
+            Console.WriteLine(ResetDatabase());
 
             Console.WriteLine(ImportData());
 
-           // ExportData();
+            ExportData();
         }
 
         private static string ImportData()
@@ -40,11 +40,11 @@ namespace Instagraph.App
 
                 sb.AppendLine(Deserializer.ImportFollowers(context, followersJson));
 
-                string postsXml = File.ReadAllText("files/input/posts.xml");
+                string postsXml = File.ReadAllText("../../../../Instagraph.App/files/input/posts.xml");
 
                 sb.AppendLine(Deserializer.ImportPosts(context, postsXml));
 
-                string commentsXml = File.ReadAllText("files/input/comments.xml");
+                string commentsXml = File.ReadAllText("../../../../Instagraph.App/files/input/comments.xml");
 
                 sb.AppendLine(Deserializer.ImportComments(context, commentsXml));
             }
