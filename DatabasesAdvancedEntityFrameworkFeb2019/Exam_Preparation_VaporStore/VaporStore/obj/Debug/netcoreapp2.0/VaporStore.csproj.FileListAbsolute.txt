@@ -1,0 +1,11 @@
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\bin\Debug\netcoreapp2.0\VaporStore.deps.json
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\bin\Debug\netcoreapp2.0\VaporStore.runtimeconfig.json
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\bin\Debug\netcoreapp2.0\VaporStore.runtimeconfig.dev.json
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\bin\Debug\netcoreapp2.0\VaporStore.dll
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\bin\Debug\netcoreapp2.0\VaporStore.pdb
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\obj\Debug\netcoreapp2.0\VaporStore.csprojAssemblyReference.cache
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\obj\Debug\netcoreapp2.0\VaporStore.csproj.CoreCompileInputs.cache
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\obj\Debug\netcoreapp2.0\VaporStore.AssemblyInfoInputs.cache
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\obj\Debug\netcoreapp2.0\VaporStore.AssemblyInfo.cs
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\obj\Debug\netcoreapp2.0\VaporStore.dll
+E:\Todor\New folder\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_VaporStore\VaporStore\obj\Debug\netcoreapp2.0\VaporStore.pdb
