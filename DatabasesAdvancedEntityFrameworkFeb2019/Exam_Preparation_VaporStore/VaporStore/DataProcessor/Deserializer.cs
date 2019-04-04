@@ -3,8 +3,11 @@
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.Globalization;
+    using System.IO;
     using System.Linq;
     using System.Text;
+    using System.Xml.Serialization;
     using Data;
     using Newtonsoft.Json;
     using VaporStore.Data.Models;
@@ -14,15 +17,17 @@
     {
         public static string ErrorMessage = $"Invalid Data";
         public static string SuccessImportGames = "Added {0} ({1}) with {2} tags";
+        public static string SuccessImportUsers = "Imported {0} with {1} cards";
+        public static string SuccessImportPurchases = "Imported {0} for {1}";
 
         public static string ImportGames(VaporStoreDbContext context, string jsonString)
         {
             var deserializedGames = JsonConvert.DeserializeObject<GameDto[]>(jsonString);
 
-            List<Game> games = new List<Game>();
-            List<Developer> developers = new List<Developer>();
-            List<Genre> genres = new List<Genre>();
-            List<Tag> tags = new List<Tag>();
+            var games = new List<Game>();
+            var developers = new List<Developer>();
+            var genres = new List<Genre>();
+            var tags = new List<Tag>();
 
             StringBuilder sb = new StringBuilder();
 
@@ -34,20 +39,20 @@
                     continue;
                 }
 
-                var dev = context.Developers.SingleOrDefault(d => d.Name == dto.Developer);
-                if (dev == null)
+                var developer = developers.SingleOrDefault(d => d.Name == dto.Developer);
+                if (developer == null)
                 {
-                    Developer developer = new Developer()
+                    developer = new Developer()
                     {
                         Name = dto.Developer
                     };
                     developers.Add(developer);
                 }
 
-                var genre = context.Genres.SingleOrDefault(g => g.Name == dto.Genre);
+                var genre = genres.SingleOrDefault(g => g.Name == dto.Genre);
                 if (genre == null)
                 {
-                    Genre gen = new Genre()
+                    genre = new Genre()
                     {
                         Name = dto.Genre
                     };
@@ -73,13 +78,13 @@
                     Name = dto.Name,
                     Price = dto.Price,
                     ReleaseDate = dto.ReleaseDate,
-                    Developer = dev,
+                    Developer = developer,
                     Genre = genre,
                     GameTags = gameTags.Select(t => new GameTag { Tag = t }).ToArray()
                 };
 
                 games.Add(game);
-                sb.AppendLine(string.Format(SuccessImportGames, game.Name, game.Genre, game.GameTags.Count));
+                sb.AppendLine(string.Format(SuccessImportGames, game.Name, game.Genre.Name, game.GameTags.Count));
             }
             context.Games.AddRange(games);
             context.SaveChanges();
@@ -91,12 +96,84 @@
 
         public static string ImportUsers(VaporStoreDbContext context, string jsonString)
         {
-            throw new NotImplementedException();
+            var deserializedUsers = JsonConvert.DeserializeObject<UserDto[]>(jsonString);
+
+            var users = new List<User>();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var dto in deserializedUsers)
+            {
+                if (!IsValid(dto) || !dto.Cards.All(IsValid))
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+                var user = new User(dto.FullName, dto.Username, dto.Email, dto.Age, dto.Cards);
+
+                users.Add(user);
+                sb.AppendLine(string.Format(SuccessImportUsers, user.Username, user.Cards.Count));
+            }
+
+            context.Users.AddRange(users);
+            context.SaveChanges();
+
+            string result = sb.ToString();
+            return result;
         }
 
         public static string ImportPurchases(VaporStoreDbContext context, string xmlString)
         {
-            throw new NotImplementedException();
+            var serializer = new XmlSerializer(typeof(PurchaseDto[]), new XmlRootAttribute("Purchases"));
+            var deserializedPurchases = (PurchaseDto[])serializer.Deserialize(new StringReader(xmlString));
+
+            List<Purchase> purchases = new List<Purchase>();
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var dto in deserializedPurchases)
+            {
+                if (!IsValid(dto))
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+
+                var card = context.Cards.SingleOrDefault(c => c.Number == dto.CardNumber);
+                if (card == null)
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+                var user = context.Users.SingleOrDefault(u => u.Cards.Any(c => c.Number == card.Number));
+                if (user == null)
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+                var game = context.Games.SingleOrDefault(g => g.Name == dto.Title);
+                if (game == null)
+                {
+                    sb.AppendLine(ErrorMessage);
+                    continue;
+                }
+
+                sb.AppendLine(string.Format(SuccessImportPurchases, dto.Title, user.Username));
+                var date = DateTime.ParseExact(dto.Date, "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
+                var purchase = new Purchase(dto.Type, dto.ProductKey,date, card.Id, game.Id);
+
+                purchases.Add(purchase);
+            }
+
+            context.Purchases.AddRange(purchases);
+            context.SaveChanges();
+
+            string result = sb.ToString();
+            return result;
         }
 
         private static bool IsValid(object obj)

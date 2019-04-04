@@ -8,6 +8,15 @@ namespace VaporStore.Data.Models
 {
     public class Purchase
     {
+        public Purchase(PurchaseType type, string productKey, DateTime date, int cardId, int gameId)
+        {
+            this.Type = type;
+            this.ProductKey = productKey;
+            this.Date = date;
+            this.CardId = cardId;
+            this.GameId = gameId;
+        }
+
         [Key]
         public int Id { get; set; }
 

@@ -9,7 +9,15 @@ namespace VaporStore.Data.Models
     {
         public User()
         {
-            this.Cards = new HashSet<Card>();
+        }
+
+        public User(string fullName, string userName, string email, int age, List<Card> cards)
+        {
+            this.FullName = fullName;
+            this.Username = userName;
+            this.Age = age;
+            this.Email = email;
+            this.Cards = cards;
         }
 
         [Key]

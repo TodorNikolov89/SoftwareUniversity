@@ -1,13 +1,38 @@
 ﻿namespace VaporStore.DataProcessor
 {
-	using System;
-	using Data;
+    using System;
+    using System.Linq;
+    using System.Text;
+    using Data;
 
-	public static class Bonus
-	{
-		public static string UpdateEmail(VaporStoreDbContext context, string username, string newEmail)
-		{
-			throw new NotImplementedException();
-		}
-	}
+    public static class Bonus
+    {
+        public static string UpdateEmail(VaporStoreDbContext context, string username, string newEmail)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            var user = context
+                .Users
+                .SingleOrDefault(u => u.Username == username);
+
+            if (user == null)
+            {
+                return$"User {username} not found";
+            }
+
+            var emailAlreadyTaken = context.Users.Any(u => u.Email == newEmail);
+
+            if (emailAlreadyTaken)
+            {
+                return $"Email {newEmail} is already taken";
+            }
+
+            user.Email = newEmail;
+            context.SaveChanges();
+
+            return $"Changed {user.Username}'s email successfully";
+
+            return sb.ToString();
+        }
+    }
 }
