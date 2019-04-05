@@ -1,0 +1,11 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\bin\Debug\netcoreapp2.0\SoftJail.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\bin\Debug\netcoreapp2.0\SoftJail.runtimeconfig.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\bin\Debug\netcoreapp2.0\SoftJail.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\bin\Debug\netcoreapp2.0\SoftJail.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\bin\Debug\netcoreapp2.0\SoftJail.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_SoftJail\SoftJail\obj\Debug\netcoreapp2.0\SoftJail.pdb
