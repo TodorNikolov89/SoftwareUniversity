@@ -1,0 +1,11 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\bin\Debug\netcoreapp2.1\test.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\bin\Debug\netcoreapp2.1\test.runtimeconfig.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\bin\Debug\netcoreapp2.1\test.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\bin\Debug\netcoreapp2.1\test.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\bin\Debug\netcoreapp2.1\test.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\obj\Debug\netcoreapp2.1\test.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\obj\Debug\netcoreapp2.1\test.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\obj\Debug\netcoreapp2.1\test.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\obj\Debug\netcoreapp2.1\test.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\obj\Debug\netcoreapp2.1\test.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_PetClinic\test\obj\Debug\netcoreapp2.1\test.pdb
