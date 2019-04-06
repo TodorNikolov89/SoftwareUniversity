@@ -1,0 +1,12 @@
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\bin\Debug\netcoreapp2.0\FastFood.Data.deps.json
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\bin\Debug\netcoreapp2.0\FastFood.Data.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\bin\Debug\netcoreapp2.0\FastFood.Data.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\bin\Debug\netcoreapp2.0\FastFood.Models.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\bin\Debug\netcoreapp2.0\FastFood.Models.pdb
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.csproj.CopyComplete
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.dll
+D:\C#\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_Preparation_FastFood\FastFood.Data\obj\Debug\netcoreapp2.0\FastFood.Data.pdb
