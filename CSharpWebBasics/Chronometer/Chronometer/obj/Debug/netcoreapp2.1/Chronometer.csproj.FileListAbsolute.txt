@@ -1,0 +1,11 @@
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\bin\Debug\netcoreapp2.1\Chronometer.deps.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\bin\Debug\netcoreapp2.1\Chronometer.runtimeconfig.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\bin\Debug\netcoreapp2.1\Chronometer.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\bin\Debug\netcoreapp2.1\Chronometer.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\bin\Debug\netcoreapp2.1\Chronometer.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\obj\Debug\netcoreapp2.1\Chronometer.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\obj\Debug\netcoreapp2.1\Chronometer.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\obj\Debug\netcoreapp2.1\Chronometer.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\obj\Debug\netcoreapp2.1\Chronometer.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\obj\Debug\netcoreapp2.1\Chronometer.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\Chronometer\Chronometer\obj\Debug\netcoreapp2.1\Chronometer.pdb

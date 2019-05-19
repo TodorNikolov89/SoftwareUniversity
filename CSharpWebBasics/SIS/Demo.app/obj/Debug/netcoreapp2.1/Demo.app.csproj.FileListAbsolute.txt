@@ -1,0 +1,32 @@
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\bin\Debug\netcoreapp2.1\Demo.app.deps.json
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\bin\Debug\netcoreapp2.1\Demo.app.runtimeconfig.json
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\bin\Debug\netcoreapp2.1\Demo.app.runtimeconfig.dev.json
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\bin\Debug\netcoreapp2.1\Demo.app.dll
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\bin\Debug\netcoreapp2.1\Demo.app.pdb
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.csprojAssemblyReference.cache
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.csproj.CoreCompileInputs.cache
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.AssemblyInfoInputs.cache
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.AssemblyInfo.cs
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.csproj.CopyComplete
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.dll
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.pdb
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+C:\Users\Todor's PC\source\repos\Solution\Demo.app\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Debug\netcoreapp2.1\Demo.app.deps.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Debug\netcoreapp2.1\Demo.app.runtimeconfig.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Debug\netcoreapp2.1\Demo.app.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Debug\netcoreapp2.1\Demo.app.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Debug\netcoreapp2.1\Demo.app.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.csproj.CopyComplete
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Debug\netcoreapp2.1\Demo.app.pdb

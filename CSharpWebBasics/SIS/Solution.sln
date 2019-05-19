@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SIS.HTTP", "SIS.HTTP\SIS.HTTP.csproj", "{FCF36436-DD8B-41B9-9058-F03A6EB77BD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.app", "Demo.app\Demo.app.csproj", "{78663FAF-F273-4F97-A4B7-81AEC4647729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIS.WebServer", "SIS.WebServer\SIS.WebServer.csproj", "{5B98F5DF-3054-41AD-AF0D-15B5E76289F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCF36436-DD8B-41B9-9058-F03A6EB77BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF36436-DD8B-41B9-9058-F03A6EB77BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF36436-DD8B-41B9-9058-F03A6EB77BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF36436-DD8B-41B9-9058-F03A6EB77BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78663FAF-F273-4F97-A4B7-81AEC4647729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78663FAF-F273-4F97-A4B7-81AEC4647729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78663FAF-F273-4F97-A4B7-81AEC4647729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78663FAF-F273-4F97-A4B7-81AEC4647729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B98F5DF-3054-41AD-AF0D-15B5E76289F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B98F5DF-3054-41AD-AF0D-15B5E76289F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B98F5DF-3054-41AD-AF0D-15B5E76289F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B98F5DF-3054-41AD-AF0D-15B5E76289F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1262DF28-1B5F-4516-81E8-8901E58486F4}
+	EndGlobalSection
+EndGlobal

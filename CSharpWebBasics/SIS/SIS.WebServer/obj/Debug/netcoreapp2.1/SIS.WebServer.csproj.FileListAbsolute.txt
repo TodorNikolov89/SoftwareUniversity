@@ -1,0 +1,24 @@
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.deps.json
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csprojAssemblyReference.cache
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CoreCompileInputs.cache
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfoInputs.cache
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfo.cs
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CopyComplete
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.dll
+C:\Users\Todor's PC\source\repos\Solution\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.deps.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CopyComplete
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.pdb
