@@ -36,7 +36,7 @@ namespace Chronometer
                         break;
                     case "laps":
                         Console.WriteLine("Laps:\n\r" + (chronometer.Laps.Count == 0
-                                                                               ? "no laps."
+                                                                               ?  "no laps."
                                                                                : string.Join("\n\r", chronometer.Laps.Select((lap, index) => $"{index}. {lap}"))));
                         break;
                     default:
