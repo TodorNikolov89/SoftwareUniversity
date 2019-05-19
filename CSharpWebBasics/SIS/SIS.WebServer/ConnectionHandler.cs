@@ -9,6 +9,7 @@ using SIS.WebServer.Routing.Contracts;
 using System;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace SIS.WebServer
 {
@@ -26,19 +27,21 @@ namespace SIS.WebServer
             this.serverRoutingTable = serverRoutingTable;
         }
 
-        public void ProcessRequest()
+        public async Task ProcessRequestAsync()
         {
             IHttpResponse httpResponse = null;
 
             try
             {
-                IHttpRequest httpRequest = this.ReadRequest();
+                IHttpRequest httpRequest = await this.ReadRequestAsync();
 
                 if (httpRequest != null)
                 {
                     Console.WriteLine($"Processing: {httpRequest.RequestMethod} {httpRequest.Path}...");
 
                     httpResponse = this.HandleRequest(httpRequest);
+
+                    await this.PrepareResponseAsync(httpResponse);
                 }
             }
             catch (BadRequestException e)
@@ -47,16 +50,14 @@ namespace SIS.WebServer
             }
             catch (Exception e)
             {
+                await this.PrepareResponseAsync(httpResponse);
                 httpResponse = new TextResult(e.Message, HttpResponseStatusCode.InternalServerError);
-
             }
 
-            this.PrepareResponse(httpResponse);
             this.client.Shutdown(SocketShutdown.Both);
-
         }
 
-        private IHttpRequest ReadRequest()
+        private async Task<IHttpRequest> ReadRequestAsync()
         {
             //Parse request from byte data
             var result = new StringBuilder();
@@ -64,7 +65,7 @@ namespace SIS.WebServer
 
             while (true)
             {
-                int numberOfBytesRead = this.client.Receive(data.Array, SocketFlags.None);
+                int numberOfBytesRead = await this.client.ReceiveAsync(data.Array, SocketFlags.None);
 
                 if (numberOfBytesRead == 0)
                 {
@@ -101,13 +102,13 @@ namespace SIS.WebServer
 
         }
 
-        private void PrepareResponse(IHttpResponse httpResponse)
+        private async Task PrepareResponseAsync(IHttpResponse httpResponse)
         {
             //prepares response -> maps it to byte data
 
             byte[] byteSegments = httpResponse.GetBytes();
 
-            this.client.Send(byteSegments, SocketFlags.None);
+            await this.client.SendAsync(byteSegments, SocketFlags.None);
 
         }
     }
