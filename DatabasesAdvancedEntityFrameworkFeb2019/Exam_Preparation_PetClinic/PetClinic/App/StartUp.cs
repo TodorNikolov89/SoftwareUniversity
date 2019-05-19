@@ -17,11 +17,11 @@
 
                 ResetDatabase(context);
 
-                ImportEntities(context);
+                //ImportEntities(context);
 
-                ExportEntities(context);
+                //ExportEntities(context);
 
-                BonusTask(context);
+                //BonusTask(context);
             }
         }
 
