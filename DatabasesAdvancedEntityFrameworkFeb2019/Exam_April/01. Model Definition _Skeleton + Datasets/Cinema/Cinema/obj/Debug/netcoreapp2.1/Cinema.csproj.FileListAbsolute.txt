@@ -1,0 +1,11 @@
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.csprojAssemblyReference.cache
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.csproj.CoreCompileInputs.cache
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.AssemblyInfoInputs.cache
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.AssemblyInfo.cs
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\bin\Debug\netcoreapp2.1\Cinema.deps.json
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\bin\Debug\netcoreapp2.1\Cinema.runtimeconfig.json
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\bin\Debug\netcoreapp2.1\Cinema.runtimeconfig.dev.json
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\bin\Debug\netcoreapp2.1\Cinema.dll
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\bin\Debug\netcoreapp2.1\Cinema.pdb
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.dll
+D:\SoftwareUniversity\DatabasesAdvancedEntityFrameworkFeb2019\Exam_April\01. Model Definition _Skeleton + Datasets\Cinema\Cinema\obj\Debug\netcoreapp2.1\Cinema.pdb
