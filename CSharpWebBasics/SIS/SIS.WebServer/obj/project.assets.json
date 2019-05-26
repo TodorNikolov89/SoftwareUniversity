@@ -704,23 +704,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Todor\\.nuget\\packages\\": {},
+    "C:\\Users\\Todor's PC\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.WebServer\\SIS.WebServer.csproj",
+      "projectUniqueName": "D:\\C#\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.WebServer\\SIS.WebServer.csproj",
       "projectName": "SIS.WebServer",
-      "projectPath": "D:\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.WebServer\\SIS.WebServer.csproj",
-      "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
-      "outputPath": "D:\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.WebServer\\obj\\",
+      "projectPath": "D:\\C#\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.WebServer\\SIS.WebServer.csproj",
+      "packagesPath": "C:\\Users\\Todor's PC\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.WebServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Todor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Todor's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -733,8 +733,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {
-              "projectPath": "D:\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.HTTP\\SIS.HTTP.csproj"
+            "D:\\C#\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {
+              "projectPath": "D:\\C#\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.HTTP\\SIS.HTTP.csproj"
             }
           }
         }

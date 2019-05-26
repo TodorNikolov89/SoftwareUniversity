@@ -71,8 +71,7 @@ namespace SIS.HTTP.Responses
             result
                 .Append($"{GlobalConstants.HttpOneProtocolFragment} {this.StatusCode.GetStatusLine()}")
                 .Append(GlobalConstants.HttpNewLine)
-                .Append(this.Headers)
-                .Append(GlobalConstants.HttpNewLine);
+                .Append(this.Headers).Append(GlobalConstants.HttpNewLine);
 
             if (this.Cookies.HasCookies())
             {
@@ -85,4 +84,3 @@ namespace SIS.HTTP.Responses
         }
     }
 }
- 
