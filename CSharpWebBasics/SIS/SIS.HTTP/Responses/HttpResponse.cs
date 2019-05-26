@@ -1,9 +1,12 @@
 ﻿using SIS.HTTP.Common;
+using SIS.HTTP.Cookies;
+using SIS.HTTP.Cookies.Contracts;
 using SIS.HTTP.Enums;
 using SIS.HTTP.Extensions;
 using SIS.HTTP.Headers;
 using SIS.HTTP.Headers.Contracts;
 using SIS.HTTP.Responses.Contracts;
+using System.Collections.Generic;
 using System.Text;
 
 namespace SIS.HTTP.Responses
@@ -14,6 +17,7 @@ namespace SIS.HTTP.Responses
         {
             this.Headers = new HttpHeaderCollection();
             this.Content = new byte[0];
+            this.Cookies = new HttpCookieCollection();
         }
 
         public HttpResponse(HttpResponseStatusCode statusCode) : this()
@@ -26,7 +30,14 @@ namespace SIS.HTTP.Responses
 
         public IHttpHeaderCollection Headers { get; }
 
+        public IHttpCookieCollection Cookies { get; }
+
         public byte[] Content { get; set; }
+
+        public void AddCookies(HttpCookie cookie)
+        {
+            this.Cookies.AddCookie(cookie);
+        }
 
         public void AddHeader(HttpHeader header)
         {
@@ -63,9 +74,15 @@ namespace SIS.HTTP.Responses
                 .Append(this.Headers)
                 .Append(GlobalConstants.HttpNewLine);
 
+            if (this.Cookies.HasCookies())
+            {
+                result.Append($"{this.Cookies}").Append(GlobalConstants.HttpNewLine);
+            }
+
             result.Append(GlobalConstants.HttpNewLine);
 
             return result.ToString();
         }
     }
 }
+ 

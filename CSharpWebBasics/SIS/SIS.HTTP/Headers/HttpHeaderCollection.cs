@@ -2,6 +2,7 @@
 using SIS.HTTP.Headers.Contracts;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace SIS.HTTP.Headers
 {
@@ -31,6 +32,6 @@ namespace SIS.HTTP.Headers
             return this.httpHeaders[key];
         }
 
-        public override string ToString() => string.Join("\r\n", this.httpHeaders.Values.Select(header => header.ToString()));
+        public override string ToString() => string.Join(GlobalConstants.HttpNewLine, this.httpHeaders.Values.Select(header => header.ToString()));
     }
 }

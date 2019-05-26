@@ -22,3 +22,15 @@ D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2
 D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CopyComplete
 D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.dll
 D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.deps.json
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.WebServer.pdb
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.dll
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Debug\netcoreapp2.1\SIS.HTTP.pdb
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csprojAssemblyReference.cache
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CoreCompileInputs.cache
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfoInputs.cache
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.AssemblyInfo.cs
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.csproj.CopyComplete
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.dll
+D:\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Debug\netcoreapp2.1\SIS.WebServer.pdb

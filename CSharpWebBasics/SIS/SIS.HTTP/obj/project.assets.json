@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Todor's PC\\.nuget\\packages\\": {},
+    "C:\\Users\\Todor\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
+      "projectUniqueName": "D:\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
       "projectName": "SIS.HTTP",
-      "projectPath": "D:\\C#\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
-      "packagesPath": "C:\\Users\\Todor's PC\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.HTTP\\obj\\",
+      "projectPath": "D:\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
+      "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
+      "outputPath": "D:\\SoftwareUniversity\\CSharpWebBasics\\SIS\\SIS.HTTP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Todor's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Todor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
