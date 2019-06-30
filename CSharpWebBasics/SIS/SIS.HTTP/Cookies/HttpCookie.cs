@@ -33,17 +33,17 @@ namespace SIS.HTTP.Cookies
             this.IsNew = isNew;
         }
 
-        public string Key { get; private set; }
+        public string Key { get; }
 
-        public string Value { get; private set; }
+        public string Value { get; }
 
         public DateTime Expires { get; private set; }
 
-        public string Path { get; private set; }
+        public string Path { get; }
 
-        public bool IsNew { get; private set; }
+        public bool IsNew { get; }
 
-        public bool HttpOnly { get; private set; }
+        public bool HttpOnly { get; set; } = true;
 
         public void Delete()
         {
