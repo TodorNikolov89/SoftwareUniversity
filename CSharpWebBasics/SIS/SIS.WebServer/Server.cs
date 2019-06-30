@@ -36,7 +36,7 @@ namespace SIS.WebServer
             this.tcpListener.Start();
             this.isRunning = true;
 
-            Console.WriteLine($"Server started at http://{ LocalhostIpAddress}:{this.port}");
+            Console.WriteLine($"Server started at http://{LocalhostIpAddress}:{this.port}");
 
             while (isRunning)
             {

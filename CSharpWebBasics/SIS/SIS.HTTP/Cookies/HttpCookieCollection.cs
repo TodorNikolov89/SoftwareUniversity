@@ -10,7 +10,7 @@ namespace SIS.HTTP.Cookies
 {
     public class HttpCookieCollection : IHttpCookieCollection
     {
-        private Dictionary<string, HttpCookie> httpCookies;
+        private  Dictionary<string, HttpCookie> httpCookies;
 
         public HttpCookieCollection()
         {
@@ -34,6 +34,7 @@ namespace SIS.HTTP.Cookies
         public HttpCookie GetCookie(string key)
         {
             CoreValidator.ThrowIfNullOrEmpty(key, nameof(key));
+            //TODO: Validation for existing parameter (maybe throw exception)
 
             HttpCookie httpCookie = this.httpCookies[key];
 

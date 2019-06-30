@@ -6,6 +6,7 @@ using SIS.HTTP.Exceptions;
 using SIS.HTTP.Headers;
 using SIS.HTTP.Headers.Contracts;
 using SIS.HTTP.Requests.Contracts;
+using SIS.HTTP.Sessions.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,6 +42,7 @@ namespace SIS.HTTP.Requests
 
         public IHttpCookieCollection Cookies { get; }
 
+        public IHttpSession Session { get; set; }
 
         private bool IsValidRequestLine(string[] requestLineParams)
         {
@@ -78,8 +80,8 @@ namespace SIS.HTTP.Requests
 
         private void ParseRequestMethod(string[] requestLineParams)
         {
-            HttpRequestMethod method;
-            bool parseResult = HttpRequestMethod.TryParse(requestLineParams[0], true, out method);
+            bool parseResult = HttpRequestMethod.TryParse(requestLineParams[0], true, out HttpRequestMethod method);
+
             if (!parseResult)
             {
                 throw new BadRequestException(string.Format(GlobalConstants.UnsupportedHttpMethodExceptionMessage, requestLineParams[0]));
@@ -101,7 +103,7 @@ namespace SIS.HTTP.Requests
 
         private void ParseRequestHeaders(string[] plainHeaders)
         {
-            plainHeaders.Select(plainHeader => plainHeader.Split(new[] { ':', ' ' }, StringSplitOptions.RemoveEmptyEntries))
+            plainHeaders.Select(plainHeader => plainHeader.Split(new string [] { ": " }, StringSplitOptions.RemoveEmptyEntries))
                 .ToList()
                 .ForEach(headerKeyValuePair => this.Headers.Addheader(new HttpHeader(headerKeyValuePair[0], headerKeyValuePair[1])));
         }
@@ -110,7 +112,7 @@ namespace SIS.HTTP.Requests
         {
             if (this.HasQueryString())
             {
-                this.Url.Split(new char[] { '?', '#' }, StringSplitOptions.RemoveEmptyEntries)[1]
+                this.Url.Split('?', '#')[1]
                .Split('&')
                .Select(plainQueryParameter => plainQueryParameter.Split('='))
                .ToList()
@@ -122,16 +124,27 @@ namespace SIS.HTTP.Requests
 
         private void ParseRequestFormDataParameters(string requestBody)
         {
-            //TODO: Parse multiple parameters by name
-            if (!string.IsNullOrEmpty(requestBody))
+            if (string.IsNullOrEmpty(requestBody) == false)
             {
-                requestBody
-                 .Split('&')
-                .Select(plainQueryParameter => plainQueryParameter.Split('='))
-                .ToList()
-                .ForEach(queryParameterKeyValuePair => this.FormData.Add(queryParameterKeyValuePair[0], queryParameterKeyValuePair[1]));
-            }
+                //TODO: Parse Multiple Parameters By Name
+                var paramsPairs = requestBody
+                   .Split('&')
+                   .Select(plainQueryParameter => plainQueryParameter.Split('='))
+                   .ToList();
 
+                foreach (var paramPair in paramsPairs)
+                {
+                    string key = paramPair[0];
+                    string value = paramPair[1];
+
+                    if (this.FormData.ContainsKey(key) == false)
+                    {
+                        this.FormData.Add(key, new HashSet<string>());
+                    }
+
+                    ((ISet<string>)this.FormData[key]).Add(value);
+                }
+            }
         }
 
         private void ParseRequestParameters(string requestBody)
@@ -169,7 +182,7 @@ namespace SIS.HTTP.Requests
             {
                 string value = this.Headers.GetHeader(HttpHeader.Cookie).Value;
 
-                string[] unparsedCookies = value.Split(new[] { "; " }, StringSplitOptions.RemoveEmptyEntries);
+                string[] unparsedCookies = value.Split(new string[] { "; " }, StringSplitOptions.RemoveEmptyEntries);
 
                 foreach (string unparsedCookie in unparsedCookies)
                 {

@@ -8,7 +8,22 @@ namespace Demo.app.Controllers
     {
         public IHttpResponse Home(IHttpRequest httpRequest)
         {
+            this.HttpRequest = httpRequest;
             return this.View();
+        }
+
+        public IHttpResponse Login(IHttpRequest httpRequest)
+        {
+            httpRequest.Session.AddParameter("username", "Pesho");
+
+            return this.Redirect("/");
+        }
+
+        public IHttpResponse Logout(IHttpRequest httpRequest)
+        {
+            httpRequest.Session.ClearParameters();
+
+            return this.Redirect("/");
         }
     }
 }

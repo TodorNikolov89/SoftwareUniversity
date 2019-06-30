@@ -29,6 +29,7 @@ namespace SIS.HTTP.Headers
         public HttpHeader GetHeader(string key)
         {
             CoreValidator.ThrowIfNullOrEmpty(key, nameof(key));
+            //TODO: Validation for existing parameter (maybe throw exception)
             return this.httpHeaders[key];
         }
 

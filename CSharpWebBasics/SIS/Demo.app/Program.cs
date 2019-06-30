@@ -10,7 +10,7 @@ namespace Demo.app
     {
         static void Main(string[] args)
         {
-           // REQUEST
+            // REQUEST
             //string request = "POST /url/asd?name=john&id=1#fragment HTTP/1.1\r\n"
             //                    + "Authorization: Basic 313123\r\n"
             //                    + "Date: " + DateTime.Now + "\r\n"
@@ -34,8 +34,12 @@ namespace Demo.app
 
 
             IServerRoutingTable serverRoutingTable = new ServerRoutingTable();
-            serverRoutingTable.Add(HttpRequestMethod.Get, "/", httpRequest => new HomeController().Home(httpRequest));
-
+            serverRoutingTable.Add(HttpRequestMethod.Get, "/", httpRequest
+                => new HomeController().Home(httpRequest));
+            serverRoutingTable.Add(HttpRequestMethod.Get, "/login", httpRequest
+                => new HomeController().Login(httpRequest));
+            serverRoutingTable.Add(HttpRequestMethod.Get, "/logout", httpRequest
+            => new HomeController().Logout(httpRequest));
             Server server = new Server(port: 8000, serverRoutingTable);
             server.Run();
 
