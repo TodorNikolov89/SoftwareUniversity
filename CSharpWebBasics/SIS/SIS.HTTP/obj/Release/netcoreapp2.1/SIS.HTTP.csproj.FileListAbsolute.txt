@@ -1,0 +1,9 @@
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.HTTP\bin\Release\netcoreapp2.1\SIS.HTTP.deps.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.HTTP\bin\Release\netcoreapp2.1\SIS.HTTP.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.HTTP\bin\Release\netcoreapp2.1\SIS.HTTP.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.HTTP\obj\Release\netcoreapp2.1\SIS.HTTP.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.HTTP\obj\Release\netcoreapp2.1\SIS.HTTP.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.HTTP\obj\Release\netcoreapp2.1\SIS.HTTP.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.HTTP\obj\Release\netcoreapp2.1\SIS.HTTP.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.HTTP\obj\Release\netcoreapp2.1\SIS.HTTP.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.HTTP\obj\Release\netcoreapp2.1\SIS.HTTP.pdb

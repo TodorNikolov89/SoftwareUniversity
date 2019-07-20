@@ -1,0 +1,15 @@
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Release\netcoreapp2.1\Demo.app.deps.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Release\netcoreapp2.1\Demo.app.runtimeconfig.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Release\netcoreapp2.1\Demo.app.runtimeconfig.dev.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Release\netcoreapp2.1\Demo.app.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Release\netcoreapp2.1\Demo.app.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Release\netcoreapp2.1\SIS.HTTP.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Release\netcoreapp2.1\SIS.WebServer.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Release\netcoreapp2.1\SIS.HTTP.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\bin\Release\netcoreapp2.1\SIS.WebServer.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Release\netcoreapp2.1\Demo.app.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Release\netcoreapp2.1\Demo.app.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Release\netcoreapp2.1\Demo.app.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Release\netcoreapp2.1\Demo.app.csproj.CopyComplete
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Release\netcoreapp2.1\Demo.app.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\Demo.app\obj\Release\netcoreapp2.1\Demo.app.pdb

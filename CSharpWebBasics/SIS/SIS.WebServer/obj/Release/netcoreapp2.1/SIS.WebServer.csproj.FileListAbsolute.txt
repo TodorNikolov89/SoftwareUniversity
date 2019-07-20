@@ -1,0 +1,12 @@
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Release\netcoreapp2.1\SIS.WebServer.deps.json
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Release\netcoreapp2.1\SIS.WebServer.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Release\netcoreapp2.1\SIS.WebServer.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Release\netcoreapp2.1\SIS.HTTP.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\bin\Release\netcoreapp2.1\SIS.HTTP.pdb
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Release\netcoreapp2.1\SIS.WebServer.csprojAssemblyReference.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Release\netcoreapp2.1\SIS.WebServer.csproj.CoreCompileInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Release\netcoreapp2.1\SIS.WebServer.AssemblyInfoInputs.cache
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Release\netcoreapp2.1\SIS.WebServer.AssemblyInfo.cs
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Release\netcoreapp2.1\SIS.WebServer.csproj.CopyComplete
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Release\netcoreapp2.1\SIS.WebServer.dll
+D:\C#\SoftwareUniversity\CSharpWebBasics\SIS\SIS.WebServer\obj\Release\netcoreapp2.1\SIS.WebServer.pdb
