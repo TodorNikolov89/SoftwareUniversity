@@ -101,3 +101,19 @@
        </th> 
   </tr>
 </table>
+
+
+<table border="0" width="100%" cellspacing="1" cellpadding="3" align="center">
+  <tr>
+       <th align="center" width="50%">
+        Databases Advanced - Entity Framework - February 2019
+       </th> 
+       <th align="center" width="40%">
+        Grade: 5.80/6.00 <br> Issue date: 10/04/2019
+       </th> 
+       <th align="center" >
+         <a href="https://softuni.bg/certificates/details/64743/72d21181">Certificate</a> 
+       </th> 
+  </tr>
+</table>
+
