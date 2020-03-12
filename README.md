@@ -4,7 +4,6 @@
 <details>
 <summary>How do I dropdown?</summary>
 <br>
-<table>
-  
-  </table>
+| Backtick | `         |
+| Pipe     | \|        |
 </details>
