@@ -6,7 +6,7 @@
 <h1><a href="https://softuni.bg/">SoftUni</a></h1>
 <h2>C#</h2>
 </td>
-
+<td align="center" width="33%"><img src="https://avatars0.githubusercontent.com/u/37155002?s=460&v=4" alt="" />
 </a>
 </strong></p>
 </td>
