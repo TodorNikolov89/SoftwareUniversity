@@ -3,7 +3,13 @@
 
 <table>
   <tr>
-      <td>
+       <td>
+        Programming Basics with Java- october 2017
+       </td> 
+       <td>
+        6.00/6.00 <br> Issue date: 22/12/2017
+       </td> 
+       <td>
         Programming Basics with Java- october 2017
        </td> 
   </tr>
