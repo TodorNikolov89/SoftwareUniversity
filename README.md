@@ -58,3 +58,18 @@
        </td> 
   </tr>
 </table>
+
+
+<table border="0" width="100%" cellspacing="1" cellpadding="3" align="center">
+  <tr>
+       <td align="center" width="33%">
+        C# OOP Basics - October 2018
+       </td> 
+       <td align="center" width="33%">
+        Grade: 5.50/6.00 <br> Issue date: 21/12/2018
+       </td> 
+       <td align="center" width="33%">
+         <a href="https://softuni.bg/certificates/details/61616/337586e1">Certificate</a> 
+       </td> 
+  </tr>
+</table>
