@@ -1,2 +1,1 @@
-# SoftwareUniversity
-![alt text](E:\SoftUni.png)
+# Software University - Exercises 
