@@ -1,7 +1,7 @@
 # Software University - Exercises 
 
 
-<table>
+<table class="certificate-table">
   <tr>
        <td>
         Programming Basics with Java- october 2017
@@ -15,5 +15,10 @@
   </tr>
 </table>
 
+<style>
+  .certificate-table{
+    width:auto;
+  }
+ </style>
 
 
