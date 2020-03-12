@@ -2,10 +2,8 @@
 
 <details>
 <summary>How do I dropdown?</summary>
-<br>
-  
-| First Header  | Second Header |
-| ------------- | ------------- |
+<br> 
+
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
