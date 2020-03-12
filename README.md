@@ -73,3 +73,17 @@
        </td> 
   </tr>
 </table>
+
+<table border="0" width="100%" cellspacing="1" cellpadding="3" align="center">
+  <tr>
+       <td align="center" width="33%">
+        Programming Fundamentals - May 2018
+       </td> 
+       <td align="center" width="33%">
+        Grade: 6.60/6.00 <br> Issue date: 14/01/2019
+       </td> 
+       <td align="center" width="33%">
+         <a href="https://softuni.bg/certificates/details/62111/155c91fa">Certificate</a> 
+       </td> 
+  </tr>
+</table>
