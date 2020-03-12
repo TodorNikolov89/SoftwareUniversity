@@ -87,3 +87,17 @@
        </th> 
   </tr>
 </table>
+
+<table border="0" width="100%" cellspacing="1" cellpadding="3" align="center">
+  <tr>
+       <th align="center" width="50%">
+        Databases Basics - MS SQL Server - January 2019
+       </th> 
+       <th align="center" width="40%">
+        Grade: 5.78/6.00 <br> Issue date: 20/02/2019
+       </th> 
+       <th align="center" >
+         <a href="https://softuni.bg/certificates/details/62831/1385632c">Certificate</a> 
+       </th> 
+  </tr>
+</table>
