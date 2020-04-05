@@ -3,4 +3,5 @@ function HelloSoftUni(){
     console.log(str);
 }
 
+
 //HelloSoftUni();
