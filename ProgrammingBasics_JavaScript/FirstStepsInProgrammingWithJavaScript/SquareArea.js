@@ -5,4 +5,5 @@ function squareArea(a, b){
     console.log(area);
 }
 
+
 //squareArea(2,3);
