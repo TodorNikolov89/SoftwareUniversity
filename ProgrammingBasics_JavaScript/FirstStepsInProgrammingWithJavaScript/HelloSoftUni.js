@@ -1,7 +1,7 @@
-function HelloSoftUni(){
+function helloSoftUni(){
     let str = "Hello SoftUni";
     console.log(str);
 }
 
 
-//HelloSoftUni();
+//helloSoftUni();

@@ -1,8 +1,8 @@
-function SquareArea(a, b){
+function squareArea(a, b){
 
     let area = a * b;
 
     console.log(area);
 }
 
-//SquareArea(2,3);
+//squareArea(2,3);
