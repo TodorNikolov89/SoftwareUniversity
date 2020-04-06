@@ -12,5 +12,5 @@ function calculatePrice(tables, tableWidth, tableHeight){
     console.log(result2 + " BGN");    
 }
 
-calculatePrice(5, 1.00,0.50)
-calculatePrice(10,1.20,0.65)
+// calculatePrice(5, 1.00,0.50)
+// calculatePrice(10,1.20,0.65)
