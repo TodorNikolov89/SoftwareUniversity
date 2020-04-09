@@ -1,4 +1,10 @@
-function calculateTrip(tripPrice, puzzles, dolls, bears, minions, trucks){
+function calculateTrip(moneyForTrip, puzzlesCount, dollsCount, bearsCount, minionsCount, trucksCount){
+    let tripPrice = Number(moneyForTrip)
+    let puzzles = Number(puzzlesCount)
+    let dolls = Number(dollsCount)
+    let bears = Number(bearsCount)
+    let minions = Number(minionsCount)
+    let trucks = Number(trucksCount)
     let toys = puzzles + dolls + bears + minions + trucks;
     let discount = 0;
     
@@ -19,5 +25,5 @@ function calculateTrip(tripPrice, puzzles, dolls, bears, minions, trucks){
 
 }
 
-// calculateTrip(40.8, 20, 25, 30, 50, 10)
-// calculateTrip(320,8,2,5,5,1)
+calculateTrip(40.8, 20, 25, 30, 50, 10)
+calculateTrip(320,8,2,5,5,1)
