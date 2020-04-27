@@ -1,6 +1,6 @@
 function bonusScore(input){
     let score  = 0;
-    let number = Number(input.shift())
+    let number = Number(input)
     if(number<=100){
         score +=5;
     } else if (number>100 && number<=1000){

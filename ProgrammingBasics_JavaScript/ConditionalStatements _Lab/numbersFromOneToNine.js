@@ -1,6 +1,6 @@
 function getNumbersFromOneToNine(number) {
-    let result = ""
-
+    let result;
+    number = Number(number)
     if (number === 1) {
         result = "one";
     } else if (number === 2) {
@@ -16,7 +16,7 @@ function getNumbersFromOneToNine(number) {
     } else if (number === 7) {
         result = "seven";
     } else if (number === 8) {
-        result = "eigth";
+        result = "eight";
     } else if (number === 9) {
         result = "nine";
     } else {
@@ -25,5 +25,5 @@ function getNumbersFromOneToNine(number) {
     console.log(result)
 }
 
-// getNumbersFromOneToNine(5)
+ getNumbersFromOneToNine(1)
 // getNumbersFromOneToNine(10)
