@@ -1,4 +1,4 @@
-function solve(incomeMoney,avarageGrade, minSalary){
+function solve(incomeMoney, avarageGrade, minSalary) {
     let income = Number(incomeMoney);
     let avGrade = Number(avarageGrade);
     let salary = Number(minSalary);
@@ -8,22 +8,22 @@ function solve(incomeMoney,avarageGrade, minSalary){
     let ouputMessage = `You cannot get a scholarship!`;
 
     //Social
-    if(avGrade <=4.50 ){
+    if (avGrade <= 4.50) {
         ouputMessage = `You cannot get a scholarship!`;
     }
-    if(income <= salary && avGrade > 4.50){
+    if (income <= salary && avGrade > 4.50) {
         ouputMessage = `You get a Social scholarship ${socialScholarship} BGN`;
-    } 
+    }
 
     //Excellent
-    if(avGrade >= 5.50){
-        if(excellentScholarship < socialScholarship){
+    if (avGrade >= 5.50) {
+        if (excellentScholarship < socialScholarship) {
             ouputMessage = `You get a Social scholarship ${socialScholarship} BGN`;
         } else {
             ouputMessage = `You get a scholarship for excellent results ${excellentScholarship} BGN`;
         }
     }
-    
+
 
     console.log(ouputMessage);
 }
