@@ -1,22 +1,11 @@
-function sortArray(arr, sort) {
-    let result = [];
+function sortArray(a, b) {
+    let result = filter();
 
-    if (sort === 'asc') {
-        result = sortAscending(arr)
-        console.log(Array.from(result))
-    } else if (sort === "desc") {
-        result = sortAscending(Array.from(arr))
-        console.log(result)
+    return result[b](a);
+    function filter() {
+        return {
+            asc: (s) => s.sort((a, b) => a - b),
+            desc: (s) => s.sort((a, b) => b - a)
+        }
     }
-
-    function sortAscending(arr) {
-        return arr.sort((a, b) => a - b)
-    }
-
-    function sortDescending(arr) {
-        return arr.sort((a, b) => b - a)
-    }
-
 }
-
-sortArray([14, 7, 17, 6, 8], 'asc')
