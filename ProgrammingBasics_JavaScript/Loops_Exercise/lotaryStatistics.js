@@ -19,8 +19,6 @@ function lotaryStatistics(input) {
         }
     }
 
-
-
     let percentOddOneDigitNumberCount =  oddOneDigitNumberCount / input * 100;  
     let percentEvenNumbersCount =  evenNumbersCount / input * 100;  
     let percentOddNumbersEndingOnSeven  =  oddNumbersEndingOnSeven / input * 100;  
