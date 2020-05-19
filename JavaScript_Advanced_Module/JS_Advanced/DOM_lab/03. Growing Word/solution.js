@@ -1,9 +1,7 @@
 function growingWord() {
   let index = 0;
   let arr = [{ styleName: "blue", fontSize: "2px" }, { styleName: "green", fontSize: "4px" }, { styleName: "red", fontSize: "8px" }];
-  let ppt = 2;
 
-  //let element = document.getElementsByClassName('conditions')[0];
   let element = document.getElementsByClassName('conditions')[0];
   let p = element.getElementsByTagName('p')[0];
   let currentColor = p.style.color;
