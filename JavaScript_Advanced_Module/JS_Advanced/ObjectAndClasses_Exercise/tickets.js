@@ -15,12 +15,11 @@ function solve(towns, criteria) {
         result.push(newTicket);
     });
 
-    result.sort(compare())
-
-
 
     console.log(result)
 }
+
+
 
 solve([
     'Philadelphia|94.20|available',
@@ -30,5 +29,3 @@ solve([
     'destination'
 )
 
-
-objs.sort(compare);
