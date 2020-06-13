@@ -1,12 +1,11 @@
-function add(n) {
-    var v = function (x) {
-        return add(n + x);
-    };
+function solution(n) {
+    n = Number(n);
 
-    v.valueOf = v.toString = function () {
-        return n;
-    };
-
-    return v;
+    return function (number) {
+        return Number(number) + n;
+    }
 }
 
+let add7 = solution(7);
+console.log(add7(2));
+console.log(add7(3));

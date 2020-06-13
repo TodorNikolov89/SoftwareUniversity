@@ -1,27 +1,28 @@
 class Company {
     constructor() {
-        this.departments = [];
+        this.departments = new Map();
     }
 
     addEmployee(username, salary, position, department) {
-        if (username === "" || position === "" || department === "") {
-            throw new Error("Ivalid input!")
+        if (username === "" || username === undefined || username === null
+            || salary === "" || salary === undefined || salary === null
+            || position === "" || position === undefined || position === null
+            || department === "" || department === undefined || department === null) {
+            throw new Error("Invalid input!")
         }
 
         if (salary < 0) {
-            throw new Error(" Ivalid input!")
+            throw new Error(' Invalid input!')
         }
 
-        this.departments.push({
-            username,
-            salary,
-            position,
-            department
-        })
-    }
+        if (!this.departments.get(department)) {
+            let arr = [];
+            this.departments.set(department,arr)
+        }
 
-    bestDepartment() {
+        this.departments.get(department).push({ username, salary, position })
 
+        return `New employee is hired. Name: ${username}. Position: ${position}`
     }
 }
 
