@@ -1,5 +1,4 @@
-let isSymetric = require(`../checkForSymmetry`);
-const isSymmetric = require('../checkForSymmetry');
+let isSymmetric = require(`../checkForSymmetry`);
 let expect = require('chai').expect;
 
 describe('isSymetric() should return true or false', () => {
@@ -8,11 +7,16 @@ describe('isSymetric() should return true or false', () => {
         expect(result).equals(false, 'Result should be false!')
     })
 
+    it('Should return false {}}', () => {
+        let result = isSymmetric({});
+        expect(result).equals(false, 'Result should be false!')
+    })
+
     it('Should return true for [1,2,1] ', () => {
         let result = isSymmetric([1, 2, 1]);
         expect(result).equals(true, 'Result should be true!')
     })
-  //  C:/Users/Todor's PC/AppData/Roaming/npm/node_modules/mocha/bin/_mocha
+
     it('Should return true for [0]', () => {
         let result = isSymmetric([0]);
         expect(result).equals(true, 'Result should be true!')
