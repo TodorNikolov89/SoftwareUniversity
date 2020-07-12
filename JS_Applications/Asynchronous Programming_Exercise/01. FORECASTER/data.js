@@ -34,13 +34,5 @@ export async function getUpcoming(code) {
     const data = await (await fetch(host(api.upcoming + code))).json();
 
     return data;
-    return {
-        "forecast": [
-            { "condition": "Partly sunny", "high": "17", "low": "6" },
-            { "condition": "Overcast", "high": "9", "low": "3" },
-            { "condition": "Overcast", "high": "7", "low": "3" }
-        ],
-        "name": "New York"
-    }
 
 }
