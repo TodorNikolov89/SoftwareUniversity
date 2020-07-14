@@ -1,5 +1,5 @@
 function host(endpoint) {
-    return `https://judgetests.firebaseio.com/${endpoint}.json. `
+    return `https://judgetests.firebaseio.com/${endpoint}.json.`
 }
 
 
