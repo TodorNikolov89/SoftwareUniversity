@@ -1,3 +1,5 @@
+//Important:
+//ENTER:
 const appId = '0A3092E3-587E-B6F7-FF4C-C25EF7B6D700';
 const apiKey = 'DEA9F2DB-5A27-485F-9EDD-B1A7210D59FF'
 
