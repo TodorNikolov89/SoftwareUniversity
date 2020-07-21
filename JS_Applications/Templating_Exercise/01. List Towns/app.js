@@ -16,10 +16,4 @@ window.addEventListener('load', () => {
         const generatedHtml = templateFn({ towns });
         rootEl.innerHTML = generatedHtml;
     }
-
-    async function getData(url) {
-        let result = await fetch(url);
-        let data = await result.text()
-        return data;
-    }
 })
